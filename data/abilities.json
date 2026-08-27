@@ -1,0 +1,4811 @@
+{
+  "abilities": {
+    "11th Squadron": [
+      {
+        "raw": "Восстановите 1 единицу прочности, выбранному штабу или технике. За каждую 5 единицу ресурсов.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Восстановите 1 единицу прочности, выбранному штабу или технике. За каждую 5 единицу ресурсов"
+          }
+        ],
+        "coverage": "none"
+      }
+    ],
+    "13-я дивизия": [
+      {
+        "raw": "Когда уничтожается техника противника - переместите одну случайную карту из потерь в колоду.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "enemyVehicleDestroyed",
+            "effects": [
+              {
+                "op": "recoverFromCasualties",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "21-й танковый": [
+      {
+        "raw": "Огневая мощь штаба противника уменьшена на 1, если она должна быть равна 2 или больше.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Огневая мощь штаба противника уменьшена на 1, если она должна быть равна 2 или больше"
+          }
+        ],
+        "coverage": "none"
+      }
+    ],
+    "2nd Armored": [
+      {
+        "raw": "Когда в ваш ход уничтожается техника противника — нанесите 1 повреждение штабу противника и восстановите 1 прочности своему штабу.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "enemyVehicleDestroyed",
+            "effects": [
+              {
+                "op": "damage",
+                "target": "enemyHQ",
+                "amount": 1
+              },
+              {
+                "op": "heal",
+                "target": "ownHQ",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "3-я дивизия": [
+      {
+        "raw": "Ваша советская техника, атакуя, наносит на 1 повреждение больше по технике противника, которую на этом ходе атаковал ваш штаб.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "bonusDamage",
+                "amount": 1
+              },
+              {
+                "op": "unparsed",
+                "text": "Ваша советская техника, атакуя, наносит на 1 повреждение больше по технике противника, которую на этом ходе атаковал ваш штаб",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "3rd Airborne": [
+      {
+        "raw": "Когда уничтожается вражеская техника - противник перемещает 1 случайную карту из своей колоды в потери.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "enemyVehicleDestroyed",
+            "effects": [
+              {
+                "op": "mill",
+                "target": "enemy",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "4-я дивизия": [
+      {
+        "raw": "Возьмите карту за 7 ресурсов.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "draw",
+                "amount": 1
+              },
+              {
+                "op": "unparsed",
+                "text": "Возьмите карту за 7 ресурсов",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "41-я танковая": [
+      {
+        "raw": "Нанесите 1 повреждение всем картам противника, которым наносились повреждения в этот ход., заплатив 4 ресурса.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Нанесите 1 повреждение всем картам противника, которым наносились повреждения в этот ход., заплатив 4 ресурса"
+          }
+        ],
+        "coverage": "none"
+      }
+    ],
+    "501 AD": [
+      {
+        "raw": "Разыгрывая эту карту вы можете потратить N единиц ресурсов, чтобы этот взвод получил N единиц к прочности.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Разыгрывая эту карту вы можете потратить N единиц ресурсов, чтобы этот взвод получил N единиц к прочности"
+          }
+        ],
+        "coverage": "none"
+      }
+    ],
+    "60-я танковая": [
+      {
+        "raw": "В начале хода, если у вас на поле две и более техники со способностью “Охранение” — возьмите карту.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "turnStart",
+            "effects": [
+              {
+                "op": "draw",
+                "amount": 1
+              },
+              {
+                "op": "unparsed",
+                "text": "если у вас на поле две и более техники со способностью “Охранение” — возьмите карту",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "7-й танковый": [
+      {
+        "raw": "Взводы противника получают на 1 повреждение больше.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "damageModifier",
+                "amount": 1,
+                "target": "self"
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "7th Armored": [
+      {
+        "raw": "Когда вы тратите 6 или более ресурсов на розыгрыш карты — нанесите 2 повреждения штабу противника.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "damage",
+                "target": "enemyHQ",
+                "amount": 2
+              },
+              {
+                "op": "unparsed",
+                "text": "Когда вы тратите 6 или более ресурсов на розыгрыш карты — нанесите 2 повреждения штабу противника",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "А-32": [
+      {
+        "raw": "Национальная особенность:Маскировка.",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "camouflage"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Артиллеристы 17": [
+      {
+        "raw": "Нанесите 1 повреждение этому взводу и выбранному взводу противника (на штабах СССР).",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Нанесите 1 повреждение этому взводу и выбранному взводу противника"
+          }
+        ],
+        "coverage": "none"
+      }
+    ],
+    "АТ-1": [
+      {
+        "raw": "Маскировка (на штабах СССР).",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "camouflage"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Без пощады": [
+      {
+        "raw": "Вся техника противника теряет свойство Охранение до конца хода.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "removeKeyword",
+                "keyword": "guard",
+                "target": "enemyVehicles"
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для советских штабов) Нанесите 3 повреждения штабу противника",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "damage",
+                "target": "enemyHQ",
+                "amount": 3
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "БТ-2": [
+      {
+        "raw": "Пока у этого танка 3 или менее прочности - он получает +3 к приросту ресурсов (только для советских штабов)",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "whileCondition",
+            "condition": {
+              "description": "у этого танка 3 или менее прочности"
+            },
+            "effects": [
+              {
+                "op": "statBonus",
+                "stat": "income",
+                "amount": 3,
+                "target": "self"
+              }
+            ],
+            "partial": true
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "БТ-СВ": [
+      {
+        "raw": "Когда уничтожен - +1 к приросту ресурсов вашего штаба.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "selfDestroyed",
+            "effects": [
+              {
+                "op": "unparsed",
+                "text": "+1 к приросту ресурсов вашего штаба"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "Валентайн II": [
+      {
+        "raw": "Получает на 1 повреждение меньше от атак и контратак (на штабах СССР)",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "damageModifier",
+                "amount": -1,
+                "target": "self"
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "ИС-4": [
+      {
+        "raw": "Арьергард",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "rearguard"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Национальная особенность: Стоимость уменьшается на 2 за каждую технику со свойством Охранение на поле боя.",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "costReduction",
+            "amount": 2,
+            "per": {
+              "description": "технику со свойством Охранение на поле боя"
+            },
+            "partial": true
+          }
+        ],
+        "coverage": "partial"
+      },
+      {
+        "raw": "Способность активная на сводных штабах: Ваша техника со свойством Охранение получает на 1 повреждение меньше от атак САУ и штаба противника.",
+        "condition": {
+          "hqType": "combined"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "damageModifier",
+                "amount": -1,
+                "target": "self"
+              },
+              {
+                "op": "unparsed",
+                "text": "Ваша техника со свойством Охранение получает на 1 повреждение меньше от атак САУ и штаба противника",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "ИС-7": [
+      {
+        "raw": "Прикрытие.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "cover"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Когда выходит на поле боя — техника противника теряет свойство Охранение (на штабах СССР).",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "deploy",
+            "effects": [
+              {
+                "op": "removeKeyword",
+                "keyword": "guard",
+                "target": "enemyVehicles"
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Стоимость уменьшается на 3 за каждый ваш взвод (на ударных штабах).",
+        "condition": {
+          "hqType": "strike"
+        },
+        "clauses": [
+          {
+            "op": "costReduction",
+            "amount": 3,
+            "per": {
+              "description": "ваш взвод"
+            },
+            "partial": true
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "ИСУ-152": [
+      {
+        "raw": "Подожгите технику, атакованную или контратакованную ИСУ-152 (на штабах СССР).",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Подожгите технику, атакованную или контратакованную ИСУ-152"
+          }
+        ],
+        "coverage": "none"
+      },
+      {
+        "raw": "Способность активная на сводных штабах. Прикрытие.",
+        "condition": {
+          "hqType": "combined"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "cover"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Криминалисты": [
+      {
+        "raw": "Подкрепления.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "reinforcements"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Когда ваш штаб наносит повреждения штабу противника — нанесите 1 повреждение каждому его взводу (на штабах СССР).",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "hqDealtDamageToEnemyHQ",
+            "effects": [
+              {
+                "op": "unparsed",
+                "text": "нанесите 1 повреждение каждому его взводу"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "Объект 261": [
+      {
+        "raw": "+4 к прочности (на штабах СССР).",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "statBonus",
+            "stat": "hp",
+            "amount": 4
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Когда выходит на поле боя — карты противника теряют свойство Маскировка (на ударных штабах).",
+        "condition": {
+          "hqType": "strike"
+        },
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "deploy",
+            "effects": [
+              {
+                "op": "removeKeyword",
+                "keyword": "camouflage",
+                "target": "enemyVehicles"
+              },
+              {
+                "op": "removeKeyword",
+                "keyword": "camouflage",
+                "target": "enemyVehicles"
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Объект 268": [
+      {
+        "raw": "После атаки - Объект 268 получает +1 к огневой мощи(на штабах СССР).",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "afterAttack",
+            "effects": [
+              {
+                "op": "statBonus",
+                "stat": "attack",
+                "amount": 1,
+                "target": "self"
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Когда Объект 268 контратакует - получает +1 к приросту ресурсов(на штабах СССР)",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "counterattack",
+            "effects": [
+              {
+                "op": "statBonus",
+                "stat": "income",
+                "amount": 1,
+                "target": "self"
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Охранение (на тыловых штабах).",
+        "condition": {
+          "hqType": "rear"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "guard"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Объект 704": [
+      {
+        "raw": "Когда Объект 704 атакует или контратакует технику с прочностью 3 или меньше - уничтожьте эту технику. (на штабах СССР)",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "destroy",
+                "target": "chosenVehicle"
+              },
+              {
+                "op": "unparsed",
+                "text": "Когда Объект 704 атакует или контратакует технику с прочностью 3 или меньше - уничтожьте эту технику",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      },
+      {
+        "raw": "Подкрепления (на ударных штабах)",
+        "condition": {
+          "hqType": "strike"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "reinforcements"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "С-51": [
+      {
+        "raw": "Когда атакует штаб противника — наносит на 1 повреждение больше.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "attack",
+            "condition": {
+              "targetDescription": "штаб противника"
+            },
+            "effects": [
+              {
+                "op": "bonusDamage",
+                "amount": 1
+              }
+            ],
+            "partial": true
+          }
+        ],
+        "coverage": "partial"
+      },
+      {
+        "raw": "Арьергард (на штабах СССР)",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "rearguard"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Спецгруппа": [
+      {
+        "raw": "Техника противника может контратаковать ваш штаб.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Техника противника может контратаковать ваш штаб"
+          }
+        ],
+        "coverage": "none"
+      }
+    ],
+    "СУ-100": [
+      {
+        "raw": "Техника, атакованная или контратакованная СУ-100, утрачивает свойство Маскировка и Охранение (на штабах СССР)",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "removeKeyword",
+                "keyword": "camouflage",
+                "target": "chosenVehicle"
+              },
+              {
+                "op": "unparsed",
+                "text": "Техника, атакованная или контратакованная СУ-100, утрачивает свойство Маскировка и Охранение",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "СУ-101": [
+      {
+        "raw": "Национальная особенность:",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [],
+        "coverage": "none"
+      },
+      {
+        "raw": "Способность активная на сводных штабах: Маскировка",
+        "condition": {
+          "hqType": "combined"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "camouflage"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "СУ-122-44": [
+      {
+        "raw": "Техника, атакованная или контратакованная СУ-122-44, не может контратаковать.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "denyCounterattack",
+                "target": "attacked"
+              },
+              {
+                "op": "unparsed",
+                "text": "Техника, атакованная или контратакованная СУ-122-44, не может контратаковать",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      },
+      {
+        "raw": "Способность активная на сводных штабах. Блиц.",
+        "condition": {
+          "hqType": "combined"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "blitz"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "СУ-122-54": [
+      {
+        "raw": "Подкрепления",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "reinforcements"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Национальная особенность: Когда разыграна — замешайте 3 карты из ваших потерь в колоду.",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "deploy",
+            "effects": [
+              {
+                "op": "recoverFromCasualties",
+                "amount": 3
+              },
+              {
+                "op": "recoverFromCasualties",
+                "amount": 3
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Способность активная на ударных штабах:Стоимость уменьшается на 2 за каждое повреждение, нанесённое штабу противника.",
+        "condition": {
+          "hqType": "strike"
+        },
+        "clauses": [
+          {
+            "op": "costReduction",
+            "amount": 2,
+            "per": {
+              "description": "повреждение, нанесённое штабу противника"
+            },
+            "partial": true
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "СУ-14": [
+      {
+        "raw": "Блиц (на штабах СССР).",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "blitz"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "+ 1 к огневой мощи за каждую из других ваших САУ (на тыловых штабах).",
+        "condition": {
+          "hqType": "rear"
+        },
+        "clauses": [
+          {
+            "op": "statBonus",
+            "stat": "attack",
+            "amount": 1,
+            "per": {
+              "description": "из других ваших САУ"
+            },
+            "partial": true
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "СУ-76": [
+      {
+        "raw": "Охранение",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "guard"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "+3 к прочности (на штабах СССР)",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "statBonus",
+            "stat": "hp",
+            "amount": 3
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "СУ-8": [
+      {
+        "raw": "(только для штабов СССР) Подкрепления.",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "reinforcements"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "СУ-85": [
+      {
+        "raw": "Атакованная техника не может перемещаться в свой следующий ход (на штабах СССР).",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "denyMove",
+                "target": "attacked"
+              },
+              {
+                "op": "unparsed",
+                "text": "Атакованная техника не может перемещаться в свой следующий ход",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      },
+      {
+        "raw": "Контратакованная техника не может перемещаться до конца хода (на штабах СССР).",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "denyMove",
+                "target": "attacked"
+              },
+              {
+                "op": "unparsed",
+                "text": "Контратакованная техника не может перемещаться до конца хода",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "Т-26": [
+      {
+        "raw": "+2 к приросту ресурсов (только для советских штабов)",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "statBonus",
+            "stat": "income",
+            "amount": 2
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Т-28": [
+      {
+        "raw": "Национальная особенность: +3 к прочности.",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "statBonus",
+            "stat": "hp",
+            "amount": 3
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Т-34": [
+      {
+        "raw": "Конвейер.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "massProduction"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Блиц (на штабах СССР).",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "blitz"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Охранение (на штабах СССР).",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "guard"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Т-37А": [
+      {
+        "raw": "Когда вы разыгрываете этот танк - замешайте одну случайную карту из своих потерь в колоду и восстановите своему штабу 1 прочности.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Когда вы разыгрываете этот танк - замешайте одну случайную карту из своих потерь в колоду и восстановите своему штабу 1 прочности"
+          }
+        ],
+        "coverage": "none"
+      }
+    ],
+    "Т-44": [
+      {
+        "raw": "Маскировка.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "camouflage"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "+2 к приросту ресурсов (на штабах СССР).",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "statBonus",
+            "stat": "income",
+            "amount": 2
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "+2 к прочности (на тыловых штабах).",
+        "condition": {
+          "hqType": "rear"
+        },
+        "clauses": [
+          {
+            "op": "statBonus",
+            "stat": "hp",
+            "amount": 2
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Т-46": [
+      {
+        "raw": "Охранение (на штабах СССР).",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "guard"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Т-54": [
+      {
+        "raw": "Прикрытие.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "cover"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Пока на поле боя - ваши Средние Танки могут перемещаться как Легкие Танки (на штабах СССР).",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "whileCondition",
+            "condition": {
+              "description": "на поле боя"
+            },
+            "effects": [
+              {
+                "op": "unparsed",
+                "text": "ваши Средние Танки могут перемещаться как Легкие Танки"
+              }
+            ],
+            "partial": true
+          }
+        ],
+        "coverage": "partial"
+      },
+      {
+        "raw": "Блиц (на сводных штабах).",
+        "condition": {
+          "hqType": "combined"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "blitz"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Т-80": [
+      {
+        "raw": "В начале хода противника Т-80 получает +1 к приросту ресурсов (на штабах СССР).",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "turnStart",
+            "effects": [
+              {
+                "op": "statBonus",
+                "stat": "income",
+                "amount": 1,
+                "target": "self"
+              },
+              {
+                "op": "unparsed",
+                "text": "противника Т-80 получает +1 к приросту ресурсов",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "Т25 AT": [
+      {
+        "raw": "Прикрытие.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "cover"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Национальная способность: Пока в руке у противника есть хотя бы 1 карта — получает свойство «Маскировка».",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "whileCondition",
+            "condition": {
+              "description": "в руке у противника есть хотя бы 1 карта"
+            },
+            "effects": [
+              {
+                "op": "grantKeyword",
+                "keyword": "camouflage",
+                "target": "self"
+              }
+            ],
+            "partial": true
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "Т28": [
+      {
+        "raw": "Национальная способность: Когда 1 или более карт одновременно попадают в потери противника — восстановите этой ПТ-САУ 2 прочности.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Когда 1 или более карт одновременно попадают в потери противника — восстановите этой ПТ-САУ 2 прочности"
+          }
+        ],
+        "coverage": "none"
+      },
+      {
+        "raw": "Способность активная на свободных штабах: Пока эта карта не повреждена, она получает свойства Охранение и Прикрытие.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "whileCondition",
+            "condition": {
+              "description": "эта карта не повреждена"
+            },
+            "effects": [
+              {
+                "op": "grantKeyword",
+                "keyword": "guard",
+                "target": "self"
+              }
+            ],
+            "partial": true
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "Т82": [
+      {
+        "raw": "Национальная способность: Если уничтожен атакой штаба или САУ - возьмите карту.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "draw",
+                "amount": 1
+              },
+              {
+                "op": "unparsed",
+                "text": "Если уничтожен атакой штаба или САУ - возьмите карту",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "Тетрарх": [
+      {
+        "raw": "Когда атакует легкие танки - наносит на 3 повреждения больше.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "attack",
+            "condition": {
+              "targetDescription": "легкие танки"
+            },
+            "effects": [
+              {
+                "op": "bonusDamage",
+                "amount": 3
+              }
+            ],
+            "partial": true
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "Учебная часть": [
+      {
+        "raw": "Это базовый советский штаб",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "note",
+            "text": "Это базовый советский штаб"
+          }
+        ],
+        "coverage": "note"
+      }
+    ],
+    "Учебный танк": [
+      {
+        "raw": "Не может перемещаться.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "immobile"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "A7V": [
+      {
+        "raw": "Тяжелые танки имеют высокие боевые характеристики, но, атаковав в свой ход, не контратакуют в ход противника.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "note",
+            "text": "Тяжелые танки имеют высокие боевые характеристики, но, атаковав в свой ход, не контратакуют в ход противника"
+          }
+        ],
+        "coverage": "note"
+      }
+    ],
+    "Air Supremacy": [
+      {
+        "raw": "Восстановите 4 прочности своему штабу.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "heal",
+                "target": "ownHQ",
+                "amount": 4
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Национальная способность: -4 к приросту вражеского штаба до конца следующего хода противника.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "-4 к приросту вражеского штаба до конца следующего хода противника"
+          }
+        ],
+        "coverage": "none"
+      }
+    ],
+    "Bauzug M": [
+      {
+        "raw": "Когда получает повреждения - восстановите 1 прочности своему штабу.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "damaged",
+            "effects": [
+              {
+                "op": "heal",
+                "target": "ownHQ",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для немецких штабов) +5 к прочности.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "statBonus",
+            "stat": "hp",
+            "amount": 5
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Be the Hero": [
+      {
+        "raw": "+3 к огневой мощи и прочности выбранной техники до конца хода противника. Эта техника обнаружена для противника в его следующий ход.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "statBonus",
+            "stat": "hp",
+            "amount": 3
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Национальная способность: В следующий ход противника, пока техника, выбранная Freedom, остается на поле боя - вражеский штаб и техника могут атаковать только ваш штаб или такую технику.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "В следующий ход противника, пока техника, выбранная Freedom, остается на поле боя - вражеский штаб и техника могут атаковать только ваш штаб или такую технику"
+          }
+        ],
+        "coverage": "none"
+      }
+    ],
+    "Bison": [
+      {
+        "raw": "(только для немецких штабов) Блиц",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "blitz"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Der Zorn": [
+      {
+        "raw": "Выбранная техника утрачивает способность Маскировка и Охранение до конца хода противника.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "removeKeyword",
+                "keyword": "camouflage",
+                "target": "chosenVehicle"
+              },
+              {
+                "op": "unparsed",
+                "text": "Выбранная техника утрачивает способность Маскировка и Охранение до конца хода противника",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      },
+      {
+        "raw": "(только для немецких штабов) Нанесите этой технике количество повреждений, равное огневой мощи вашего штаба.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Нанесите этой технике количество повреждений, равное огневой мощи вашего штаба"
+          }
+        ],
+        "coverage": "none"
+      }
+    ],
+    "Die Glorien": [
+      {
+        "raw": "Возьмите карту.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "draw",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для немецких сводных штабов) До конца хода противника все его САУ и штаб не могут атаковать.",
+        "condition": {
+          "hqType": "combined",
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "До конца хода противника все его САУ и штаб не могут атаковать"
+          }
+        ],
+        "coverage": "none"
+      }
+    ],
+    "Double Efforts": [
+      {
+        "raw": "Выбранная техника или штаб могут атаковать еще раз в этот ход.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "extraAttack",
+                "amount": 1
+              },
+              {
+                "op": "unparsed",
+                "text": "Выбранная техника или штаб могут атаковать еще раз в этот ход",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      },
+      {
+        "raw": "Национальная способность: Если выбрана техника, то она получает свойство \"Прикрытие\" до конца хода.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "grantKeyword",
+                "keyword": "cover",
+                "target": "self"
+              },
+              {
+                "op": "unparsed",
+                "text": "Если выбрана техника, то она получает свойство \"Прикрытие\" до конца хода",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "E-50": [
+      {
+        "raw": "Арьергард",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "rearguard"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Национальная особенность: Когда атакует - восстановите 2 прочности этому танку.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "attack",
+            "effects": [
+              {
+                "op": "heal",
+                "target": "self",
+                "amount": 2
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Способность активная на ударных штабах: Пока в вашей руке нет карт, может атаковать дважды за ход.",
+        "condition": {
+          "hqType": "strike"
+        },
+        "clauses": [
+          {
+            "op": "whileCondition",
+            "condition": {
+              "description": "в вашей руке нет карт"
+            },
+            "effects": [
+              {
+                "op": "extraAttack",
+                "amount": 1
+              }
+            ],
+            "partial": true
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "E-50M": [
+      {
+        "raw": "Маскировка",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "camouflage"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Национальная особенность: В конце вашего хода восстановите танку E50M 3 прочности.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "turnEnd",
+            "effects": [
+              {
+                "op": "unparsed",
+                "text": "восстановите танку E50M 3 прочности"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      },
+      {
+        "raw": "Способность активная на сводных штабах: Прикрытие",
+        "condition": {
+          "hqType": "combined"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "cover"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "E25": [
+      {
+        "raw": "Маскировка.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "camouflage"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Способность активная на ударных штабах: Когда одна или несколько карт одновременно попадают в потери, E 25 восстанавливает свою способность атаковать и передвигаться в этот ход.",
+        "condition": {
+          "hqType": "strike"
+        },
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Когда одна или несколько карт одновременно попадают в потери, E 25 восстанавливает свою способность атаковать и передвигаться в этот ход"
+          }
+        ],
+        "coverage": "none"
+      }
+    ],
+    "Feldmediziner": [
+      {
+        "raw": "В начале вашего хода этот взвод уничтожается и вашему штабу восстанавливается 6 прочности. После этого возьмите карту..",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "turnStart",
+            "effects": [
+              {
+                "op": "heal",
+                "target": "ownHQ",
+                "amount": 6
+              },
+              {
+                "op": "destroy",
+                "target": "self"
+              },
+              {
+                "op": "draw",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для немецких штабов) Ваш штаб получает способность Маскировка",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "grantKeyword",
+                "keyword": "camouflage",
+                "target": "ownHQ"
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Ferdinand": [
+      {
+        "raw": "Получает на 1 повреждение меньше от атак легких и средних танков.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "damageModifier",
+                "amount": -1,
+                "target": "self"
+              },
+              {
+                "op": "unparsed",
+                "text": "Получает на 1 повреждение меньше от атак легких и средних танков",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      },
+      {
+        "raw": "(только для немецких штабов) Нанесите на 2 повреждения больше технике со способностью маскировка",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Нанесите на 2 повреждения больше технике со способностью маскировка"
+          }
+        ],
+        "coverage": "none"
+      },
+      {
+        "raw": "(только для ударных штабов) Блиц",
+        "condition": {
+          "hqType": "strike"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "blitz"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Fernschreiber K": [
+      {
+        "raw": "(только для немецких штабов) Если САУ атакует ваш штаб — она наносит на 1 повреждение меньше.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Если САУ атакует ваш штаб — она наносит на 1 повреждение меньше"
+          }
+        ],
+        "coverage": "none"
+      }
+    ],
+    "Gr. Dabendorf": [
+      {
+        "raw": "Ваш штаб не может атаковать штаб противника, пока на поле есть техника противника.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Ваш штаб не может атаковать штаб противника, пока на поле есть техника противника"
+          }
+        ],
+        "coverage": "none"
+      }
+    ],
+    "GW Tiger": [
+      {
+        "raw": "(только для немецких штабов) Если у вас есть ПТ-САУ — GW Tiger при атаке дополнительно наносит по 1 повреждению всей технике противника.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Если у вас есть ПТ-САУ — GW Tiger при атаке дополнительно наносит по 1 повреждению всей технике противника"
+          }
+        ],
+        "coverage": "none"
+      },
+      {
+        "raw": "(только для сводных штабов) Арьергард",
+        "condition": {
+          "hqType": "combined"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "rearguard"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для сводных штабов) Подкрепления",
+        "condition": {
+          "hqType": "combined"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "reinforcements"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "GW Typ E": [
+      {
+        "raw": "Арьергард",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "rearguard"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для немецких штабов) Когда атакует — дополнительно наносит 2 повреждения каждому взводу противника.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "attack",
+            "effects": [
+              {
+                "op": "unparsed",
+                "text": "дополнительно наносит 2 повреждения каждому взводу противника"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      },
+      {
+        "raw": "(только для тыловых штабов) В конце своего хода - восстановите 2 прочности этой САУ.",
+        "condition": {
+          "hqType": "rear"
+        },
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "В конце своего хода - восстановите 2 прочности этой САУ"
+          }
+        ],
+        "coverage": "none"
+      }
+    ],
+    "Heart of the Enemy": [
+      {
+        "raw": "Нанесите 2 повреждения выбранному штабу, технике или взводу.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "damage",
+                "target": "chosen",
+                "amount": 2
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Hetzer": [
+      {
+        "raw": "(только для немецких штабов) Получает способность маскировка, пока у Вас есть легкий танк.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Получает способность маскировка, пока у Вас есть легкий танк"
+          }
+        ],
+        "coverage": "none"
+      }
+    ],
+    "Hummel": [
+      {
+        "raw": "(только для немецких штабов) Наносит на 1 повреждение больше за каждый ваш лёгкий танк рядом с целью.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "bonusDamage",
+                "amount": 1
+              },
+              {
+                "op": "unparsed",
+                "text": "Наносит на 1 повреждение больше за каждый ваш лёгкий танк рядом с целью",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "II. Armeekorps": [
+      {
+        "raw": "Пока весь ваш плацдарм занят вашей техникой - ваш штаб обладает способностью «Маскировка».",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "whileCondition",
+            "condition": {
+              "description": "весь ваш плацдарм занят вашей техникой"
+            },
+            "effects": [
+              {
+                "op": "unparsed",
+                "text": "ваш штаб обладает способностью «Маскировка»"
+              }
+            ],
+            "partial": true
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "In den Staub": [
+      {
+        "raw": "Восстановите 2 прочности своему штабу.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "heal",
+                "target": "ownHQ",
+                "amount": 2
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для немецких штабов) Нанесите 10 повреждений выбранной технике. Ваш штаб получает -1 к приросту ресурсов.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "damage",
+                "target": "chosenVehicle",
+                "amount": 10
+              },
+              {
+                "op": "damage",
+                "target": "chosen",
+                "amount": 10
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Ingenieure Sch": [
+      {
+        "raw": "(только для немецких штабов) Переместите 1 случайную карту из своей колоды в потери и получите 1 ресурс.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "gainResources",
+                "amount": 1
+              },
+              {
+                "op": "mill",
+                "target": "self",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Jackson": [
+      {
+        "raw": "Маскировка.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "camouflage"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Национальная способность: Техника, атакованная или контратакованная M36 Jackson в этом бою, теряет прирост ресурсов.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Техника, атакованная или контратакованная M36 Jackson в этом бою, теряет прирост ресурсов"
+          }
+        ],
+        "coverage": "none"
+      },
+      {
+        "raw": "Национальная способность: +2 к прочности.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "statBonus",
+            "stat": "hp",
+            "amount": 2
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "JagdPanther": [
+      {
+        "raw": "(только для немецких штабов) В начале Вашего хода JagdPanther приобретает на выбор одну из способностей Охранение, Маскировка или Прикрытие.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "turnStart",
+            "effects": [
+              {
+                "op": "unparsed",
+                "text": "JagdPanther приобретает на выбор одну из способностей Охранение, Маскировка или Прикрытие"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "JagdPz IV": [
+      {
+        "raw": "Охранение",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "guard"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для немецких штабов) Когда уничтожен - возьмите карту",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "selfDestroyed",
+            "effects": [
+              {
+                "op": "draw",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "JagdTiger": [
+      {
+        "raw": "Прикрытие",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "cover"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для немецких штабов) В начале вашего хода замешайте 1 случайную карту из своих потерь в колоду.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "turnStart",
+            "effects": [
+              {
+                "op": "recoverFromCasualties",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для сводных штабов) Когда JagdTiger уничтожает технику противника своей атакой — восстановите 4 прочности своему штабу.",
+        "condition": {
+          "hqType": "combined"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "heal",
+                "target": "ownHQ",
+                "amount": 4
+              },
+              {
+                "op": "unparsed",
+                "text": "Когда JagdTiger уничтожает технику противника своей атакой — восстановите 4 прочности своему штабу",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "JagdTiger 8.8": [
+      {
+        "raw": "(только для немецких штабов) Стоимость уменьшается на 1 за каждую карту в ваших потерях",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "costReduction",
+            "amount": 1,
+            "per": {
+              "description": "карту в ваших потерях"
+            },
+            "partial": true
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "Liberty": [
+      {
+        "raw": "Тяжелые танки имеют высокие боевые характеристики, но атаковав в свой ход - не контратакует в ход противника.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "note",
+            "text": "Тяжелые танки имеют высокие боевые характеристики, но атаковав в свой ход - не контратакует в ход противника"
+          }
+        ],
+        "coverage": "note"
+      }
+    ],
+    "Löwe": [
+      {
+        "raw": "При выходе на поле получает по 1 прочности за каждые 2 карты в ваших потерях.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "При выходе на поле получает по 1 прочности за каждые 2 карты в ваших потерях"
+          }
+        ],
+        "coverage": "none"
+      },
+      {
+        "raw": "(только для немецких штабов) Арьергард",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "rearguard"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Luchs": [
+      {
+        "raw": "Когда выходит на поле боя - Luchs наносит 2 повреждения штабу противника.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "deploy",
+            "effects": [
+              {
+                "op": "unparsed",
+                "text": "Luchs наносит 2 повреждения штабу противника"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      },
+      {
+        "raw": "(только для немецких штабов) Блиц",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "blitz"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "M103": [
+      {
+        "raw": "Подкрепления",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "reinforcements"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Национальная особенность: В начале вашего хода поместите 1 случайную карту из колоды противника в его потери.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "turnStart",
+            "effects": [
+              {
+                "op": "unparsed",
+                "text": "поместите 1 случайную карту из колоды противника в его потери"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      },
+      {
+        "raw": "Способность активная на тыловых штабах: Пока в потерях противника 15 и более карт — получает свойствоМаскировка.",
+        "condition": {
+          "hqType": "rear"
+        },
+        "clauses": [
+          {
+            "op": "whileCondition",
+            "condition": {
+              "description": "в потерях противника 15 и более карт"
+            },
+            "effects": [
+              {
+                "op": "unparsed",
+                "text": "получает свойствоМаскировка"
+              }
+            ],
+            "partial": true
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "M2 LT": [
+      {
+        "raw": "Национальная способность: Маскировка.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "camouflage"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "M2 MT": [
+      {
+        "raw": "Национальная способность: Разыграв эту карту вы можете потратить N ресурсов, чтобы увеличить прирост ресурсов этого танка на N",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Разыграв эту карту вы можете потратить N ресурсов, чтобы увеличить прирост ресурсов этого танка на N"
+          }
+        ],
+        "coverage": "none"
+      }
+    ],
+    "M3 Lee": [
+      {
+        "raw": "Разыгрывая эту карту, вы можете потратить N ресурсов, чтобы увеличить прочность этого танка на N.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Разыгрывая эту карту, вы можете потратить N ресурсов, чтобы увеличить прочность этого танка на N"
+          }
+        ],
+        "coverage": "none"
+      },
+      {
+        "raw": "Национальная способность: Охранение.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "guard"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "M3 Stuart": [
+      {
+        "raw": "Наносит на 1 повреждение больше лёгким танкам.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "bonusDamage",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Национальная способность: Когда M3 Stuart выходит на поле боя - все САУ противника становятся обнаруженными.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "spot",
+                "target": "allEnemyVehicles"
+              },
+              {
+                "op": "unparsed",
+                "text": "Когда M3 Stuart выходит на поле боя - все САУ противника становятся обнаруженными",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "M40/M43": [
+      {
+        "raw": "Национальная способность: Наносит на 3 повреждения больше технике со способностью \"Охранение\".",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "bonusDamage",
+                "amount": 3
+              },
+              {
+                "op": "unparsed",
+                "text": "Наносит на 3 повреждения больше технике со способностью \"Охранение\"",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      },
+      {
+        "raw": "Способность активная на тыловых штабах: \"Маскировка\".",
+        "condition": {
+          "hqType": "rear"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "camouflage"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "M41": [
+      {
+        "raw": "Национальная способность: Маскировка.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "camouflage"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "M44": [
+      {
+        "raw": "Национальная способность: Когда вы разыгрываете эту технику, заплатите N ресурсов и возьмите карту за каждые 2 доплаченных ресурса.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "draw",
+                "amount": 1
+              },
+              {
+                "op": "unparsed",
+                "text": "Когда вы разыгрываете эту технику, заплатите N ресурсов и возьмите карту за каждые 2 доплаченных ресурса",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "M46 Patton": [
+      {
+        "raw": "Маскировка.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "camouflage"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Национальная способность: Вся техника противника обнаружена.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "spot",
+                "target": "allEnemyVehicles"
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Способность активная на сводных штабах: Если M46 Patton перемещается на клетку плацдарма противника - нанесите 3 повреждения штабу противника.",
+        "condition": {
+          "hqType": "combined"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "damage",
+                "target": "enemyHQ",
+                "amount": 3
+              },
+              {
+                "op": "unparsed",
+                "text": "Если M46 Patton перемещается на клетку плацдарма противника - нанесите 3 повреждения штабу противника",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "M48 Patton": [
+      {
+        "raw": "Прикрытие.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "cover"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Национальная особенность: Когда атакует, после боя — переместите этот танк на 1 клетку назад.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "attack",
+            "effects": [
+              {
+                "op": "unparsed",
+                "text": "после боя — переместите этот танк на 1 клетку назад"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      },
+      {
+        "raw": "Способность активная на ударных штабах: Когда вы разыгрываете этот танк, получите 4 ресурсов.",
+        "condition": {
+          "hqType": "strike"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "gainResources",
+                "amount": 4
+              },
+              {
+                "op": "unparsed",
+                "text": "Когда вы разыгрываете этот танк, получите 4 ресурсов",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "M4A2E4": [
+      {
+        "raw": "Национальная способность: Блиц.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "blitz"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "M4A3E8": [
+      {
+        "raw": "Конвейер.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "massProduction"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Национальная способность: Прикрытие.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "cover"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Способность активная на ударных штабах: Когда уничтожен, посмотрите случайную карту свое колоды. Если это M4A3E8 Sherman, поместите его в вашу руку.",
+        "condition": {
+          "hqType": "strike"
+        },
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "selfDestroyed",
+            "effects": [
+              {
+                "op": "unparsed",
+                "text": "посмотрите случайную карту свое колоды. Если это M4A3E8 Sherman, поместите его в вашу руку"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "M5 Stuart": [
+      {
+        "raw": "Национальная способность: Маскировка.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "camouflage"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "M6": [
+      {
+        "raw": "Охранение.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "guard"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Национальная способность: Прикрытие.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "cover"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Способность активная только на свободных штабах: Маскировка.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "camouflage"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "M6A2E1": [
+      {
+        "raw": "Контратакует независимо от проведённой в свой ход атаки.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Контратакует независимо от проведённой в свой ход атаки"
+          }
+        ],
+        "coverage": "none"
+      },
+      {
+        "raw": "Национальная способность: Получает на 2 повреждения меньше от первой атаки за ход.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "damageModifier",
+                "amount": -2,
+                "target": "self"
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Marder II": [
+      {
+        "raw": "(только для немецких штабов) Блиц",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "blitz"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Maus": [
+      {
+        "raw": "Когда Maus перемещается на одну из клеток плацдарма противника — возьмите карту.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "draw",
+                "amount": 1
+              },
+              {
+                "op": "unparsed",
+                "text": "Когда Maus перемещается на одну из клеток плацдарма противника — возьмите карту",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      },
+      {
+        "raw": "(только для немецких штабов) +3 к огневой мощи.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "statBonus",
+            "stat": "attack",
+            "amount": 3
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для сводных штабов) Получает на 1 повреждение меньше от атак.",
+        "condition": {
+          "hqType": "combined"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "damageModifier",
+                "amount": -1,
+                "target": "self"
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Mortars 17": [
+      {
+        "raw": "Противник помещает 1 случайную карту из своей колоды в потери. Нанесите 1 повреждение своему штабу.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "damage",
+                "target": "ownHQ",
+                "amount": 1
+              },
+              {
+                "op": "unparsed",
+                "text": "Противник помещает 1 случайную карту из своей колоды в потери. Нанесите 1 повреждение своему штабу",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      },
+      {
+        "raw": "Национальная способность: Восстановите 1 прочности этому взводу в конце вашего хода.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "heal",
+                "target": "self",
+                "amount": 1
+              },
+              {
+                "op": "unparsed",
+                "text": "Восстановите 1 прочности этому взводу в конце вашего хода",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "Nachrichten 1. PD": [
+      {
+        "raw": "(только для немецких штабов) +2 к поддержке.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "statBonus",
+            "stat": "support",
+            "amount": 2
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Nachschubzug": [
+      {
+        "raw": "(только для немецких штабов) Вся немецкая техника в вашей руке получает способность Блиц",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Вся немецкая техника в вашей руке получает способность Блиц"
+          }
+        ],
+        "coverage": "none"
+      },
+      {
+        "raw": "(только для ударных штабов) Блиц",
+        "condition": {
+          "hqType": "strike"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "blitz"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Niederlage": [
+      {
+        "raw": "Нанесите 3 повреждения выбранной технике.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "damage",
+                "target": "chosenVehicle",
+                "amount": 3
+              },
+              {
+                "op": "damage",
+                "target": "chosen",
+                "amount": 3
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для немецких штабов) Если выбрана САУ — противник сбрасывает 1 случайную карту из своей руки в потери.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "discardFromHand",
+                "target": "enemy",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для ударных штабов) Нанесите 3 повреждения штабу противника.",
+        "condition": {
+          "hqType": "strike"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "damage",
+                "target": "enemyHQ",
+                "amount": 3
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Panther": [
+      {
+        "raw": "(только для немецких штабов) Ваш штаб получает +1 к огневой мощи.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "statBonus",
+                "stat": "attack",
+                "amount": 1,
+                "target": "self"
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для ударных штабов) Огневая мощь Panther равна огневой мощи Вашего штаба.",
+        "condition": {
+          "hqType": "strike"
+        },
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Огневая мощь Panther равна огневой мощи Вашего штаба"
+          }
+        ],
+        "coverage": "none"
+      }
+    ],
+    "Panzerfunker H": [
+      {
+        "raw": "Когда ваш штаб атакует штаб противника — наносит на 1 повреждение больше.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "bonusDamage",
+                "amount": 1
+              },
+              {
+                "op": "unparsed",
+                "text": "Когда ваш штаб атакует штаб противника — наносит на 1 повреждение больше",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      },
+      {
+        "raw": "(только для немецких штабов) Арьергард",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "rearguard"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Panzerjäger I": [
+      {
+        "raw": "ПТ-САУ стреляют первыми,и если своим выстрелом уничтожают технику противника, уже не получают выстрела в ответ.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "note",
+            "text": "ПТ-САУ стреляют первыми,и если своим выстрелом уничтожают технику противника, уже не получают выстрела в ответ"
+          }
+        ],
+        "coverage": "note"
+      }
+    ],
+    "Pershing": [
+      {
+        "raw": "Прикрытие.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "cover"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Национальная способность: Маскировка.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "camouflage"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Способность активная на ударных штабах: В конце своего хода восстановите 2 прочности своему штабу.",
+        "condition": {
+          "hqType": "strike"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "heal",
+                "target": "ownHQ",
+                "amount": 2
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Pz S35": [
+      {
+        "raw": "Когда уничтожен - замешайте эту карту из своих потерь в колоду.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "selfDestroyed",
+            "effects": [
+              {
+                "op": "unparsed",
+                "text": "замешайте эту карту из своих потерь в колоду"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "Pz35(t)": [
+      {
+        "raw": "Для немецких штабов: +2 к приросту ресурсов пока у вас есть САУ (на поле)",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "statBonus",
+            "stat": "income",
+            "amount": 2
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Pz38(t)": [
+      {
+        "raw": "(только для немецких штабов) +2 к приросту ресурсов",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "statBonus",
+            "stat": "income",
+            "amount": 2
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Pz38H (f)": [
+      {
+        "raw": "(только для немецких штабов) Охранение",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "guard"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "PzD Holstein": [
+      {
+        "raw": "(за 5 ресурса) Восстановите выбранной технике возможность перемещаться.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "(за 5 ресурса) Восстановите выбранной технике возможность перемещаться"
+          }
+        ],
+        "coverage": "none"
+      }
+    ],
+    "PzD Kurmark": [
+      {
+        "raw": "+1 к приросту ресурсов за каждые 2 карты техники на поле боя",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "statBonus",
+            "stat": "income",
+            "amount": 1,
+            "per": {
+              "description": "2 карты техники на поле боя"
+            },
+            "partial": true
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "PzD Müncheberg": [
+      {
+        "raw": "В начале вашего хода, если у вас в руке нет карт — возьмите карту.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "turnStart",
+            "effects": [
+              {
+                "op": "draw",
+                "amount": 1
+              },
+              {
+                "op": "unparsed",
+                "text": "если у вас в руке нет карт — возьмите карту",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "PzIII/IV": [
+      {
+        "raw": "Охранение",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "guard"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для немецких штабов) +1 к приросту ресурсов.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "statBonus",
+            "stat": "income",
+            "amount": 1
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "PzKpfw II": [
+      {
+        "raw": "Охранение",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "guard"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для немецких штабов) Если этот танк уничтожен атакой штаба или САУ - нанесите 2 повреждения штабу противника.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "damage",
+                "target": "enemyHQ",
+                "amount": 2
+              },
+              {
+                "op": "unparsed",
+                "text": "Если этот танк уничтожен атакой штаба или САУ - нанесите 2 повреждения штабу противника",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "PzKpfw IV": [
+      {
+        "raw": "Конвейер",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "massProduction"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для немецких штабов) Когда атакует - замешайте одну случайную карту из своих потерь в колоду.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "attack",
+            "effects": [
+              {
+                "op": "unparsed",
+                "text": "замешайте одну случайную карту из своих потерь в колоду"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "Ru 251": [
+      {
+        "raw": "Национальная особенность: Прикрытие",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "cover"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Способность активная на ударных штабах: Получает на 2 повреждения меньше от атак, пока у вас есть защитный взвод.",
+        "condition": {
+          "hqType": "strike"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "damageModifier",
+                "amount": -2,
+                "target": "self"
+              },
+              {
+                "op": "unparsed",
+                "text": "Получает на 2 повреждения меньше от атак, пока у вас есть защитный взвод",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "Späher M": [
+      {
+        "raw": "Защитные взводы принимают на себя часть получаемого штабом урона.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "note",
+            "text": "Защитные взводы принимают на себя часть получаемого штабом урона"
+          }
+        ],
+        "coverage": "note"
+      }
+    ],
+    "Stärke": [
+      {
+        "raw": "Замешайте 3 случайные карты из своих потерь в колоду.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "recoverFromCasualties",
+                "amount": 3
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для немецких ударных штабов) +2 к приросту ресурсов вашего штаба.",
+        "condition": {
+          "hqType": "strike",
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "statBonus",
+            "stat": "income",
+            "amount": 2
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "StuG III": [
+      {
+        "raw": "Конвейер. Охранение.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "massProduction"
+          },
+          {
+            "op": "keyword",
+            "keyword": "guard"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для немецких штабов) +1 к огневой мощи.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "statBonus",
+            "stat": "attack",
+            "amount": 1
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Sturmpanzer II": [
+      {
+        "raw": "(только для немецких штабов) Подкрепления",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "reinforcements"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "T-15": [
+      {
+        "raw": "(только для немецких штабов) -2 к стоимости.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "statBonus",
+            "stat": "cost",
+            "amount": -2
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "T-21": [
+      {
+        "raw": "Средние танки - самый универсальный тип техники, и могут передвигаться по диагонали.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "note",
+            "text": "Средние танки - самый универсальный тип техники, и могут передвигаться по диагонали"
+          }
+        ],
+        "coverage": "note"
+      }
+    ],
+    "T-62А": [
+      {
+        "raw": "Прикрытие",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "cover"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Национальная особенность: Когда атакует или контратакует технику со свойством Маскировка, Охранение или Подкрепление — подожгите такую технику.",
+        "condition": {
+          "hqNation": "ussr"
+        },
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Когда атакует или контратакует технику со свойством Маскировка, Охранение или Подкрепление — подожгите такую технику"
+          }
+        ],
+        "coverage": "none"
+      },
+      {
+        "raw": "Способность активная на тыловых штабах: Может быть разыгран на любую клетку рядом с вашим средним танком.",
+        "condition": {
+          "hqType": "rear"
+        },
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Может быть разыгран на любую клетку рядом с вашим средним танком"
+          }
+        ],
+        "coverage": "none"
+      }
+    ],
+    "T1 LT": [
+      {
+        "raw": "Лёгкие танки могут передвигаться два раза за ход, причём могут переместиться один раз сразу после выхода на поле.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "note",
+            "text": "Лёгкие танки могут передвигаться два раза за ход, причём могут переместиться один раз сразу после выхода на поле"
+          }
+        ],
+        "coverage": "note"
+      }
+    ],
+    "T110E5": [
+      {
+        "raw": "Национальная способность: Техника противника на соседних с этим танком клетках, получает на 1 повреждение больше.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "damageModifier",
+                "amount": 1,
+                "target": "self"
+              },
+              {
+                "op": "unparsed",
+                "text": "Техника противника на соседних с этим танком клетках, получает на 1 повреждение больше",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      },
+      {
+        "raw": "Способность активная на тыловых штабах: Вы можете разыграть T110E5 на центральную клетку поля боя.",
+        "condition": {
+          "hqType": "rear"
+        },
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Вы можете разыграть T110E5 на центральную клетку поля боя"
+          }
+        ],
+        "coverage": "none"
+      }
+    ],
+    "T18": [
+      {
+        "raw": "ПТ-САУ стреляют первыми, и если они своим выстрелом уничтожают технику противника, уже не получают выстрела в ответ.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "note",
+            "text": "ПТ-САУ стреляют первыми, и если они своим выстрелом уничтожают технику противника, уже не получают выстрела в ответ"
+          }
+        ],
+        "coverage": "note"
+      }
+    ],
+    "T20": [
+      {
+        "raw": "Когда вы разыгрываете этот танк — противник помещает 2 случайные карты из своей колоды в потери.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Когда вы разыгрываете этот танк — противник помещает 2 случайные карты из своей колоды в потери"
+          }
+        ],
+        "coverage": "none"
+      },
+      {
+        "raw": "Национальная особенность: Прикрытие",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "cover"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "T25/2": [
+      {
+        "raw": "Охранение.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "guard"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Национальная способность: Разыгрывая эту технику, вы можете потратить N ресурсов, чтобы нанести N повреждений каждому лёгкому танку противника на соседних клетках.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Разыгрывая эту технику, вы можете потратить N ресурсов, чтобы нанести N повреждений каждому лёгкому танку противника на соседних клетках"
+          }
+        ],
+        "coverage": "none"
+      }
+    ],
+    "T30": [
+      {
+        "raw": "Способность активная на тыловых штабах, всех наций: \"Охранение\".",
+        "condition": {
+          "hqType": "rear"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "guard"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Национальная способность: Огневая мощь вашей техники увеличивается на число, равное её приросту ресурсов.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Огневая мощь вашей техники увеличивается на число, равное её приросту ресурсов"
+          }
+        ],
+        "coverage": "none"
+      }
+    ],
+    "T32": [
+      {
+        "raw": "Способность активная на ударных штабах: Подкрепления.",
+        "condition": {
+          "hqType": "strike"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "reinforcements"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Национальная способность: Ваши взводы получают на 1 повреждение меньше.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "damageModifier",
+                "amount": -1,
+                "target": "self"
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "T34": [
+      {
+        "raw": "Национальная способность: Когда T34 разыгран — получает +1 к огневой мощи за каждый ваш взвод.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "statBonus",
+                "stat": "attack",
+                "amount": 1,
+                "target": "self"
+              },
+              {
+                "op": "unparsed",
+                "text": "Когда T34 разыгран — получает +1 к огневой мощи за каждый ваш взвод",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "T40": [
+      {
+        "raw": "Национальная способность: Охранение.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "guard"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "T57": [
+      {
+        "raw": "Национальная способность: Маскировка.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "camouflage"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "T6": [
+      {
+        "raw": "Средние танки - самый универсальный тип техники, и могут передвигаться по диагонали.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "note",
+            "text": "Средние танки - самый универсальный тип техники, и могут передвигаться по диагонали"
+          }
+        ],
+        "coverage": "note"
+      }
+    ],
+    "Telephonists EF": [
+      {
+        "raw": "Когда защищает ваш штаб от атак лёгких танков - получает на 1 повреждение больше.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "damageModifier",
+                "amount": 1,
+                "target": "self"
+              },
+              {
+                "op": "unparsed",
+                "text": "Когда защищает ваш штаб от атак лёгких танков - получает на 1 повреждение больше",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      },
+      {
+        "raw": "Национальная способность: +3 к прочности взвода.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "statBonus",
+            "stat": "hp",
+            "amount": 3
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "The Key": [
+      {
+        "raw": "Верните выбранную технику в руку владельца .",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "bounce",
+                "target": "chosenVehicle"
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Национальная способность: Возьмите карту.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "draw",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Tiger": [
+      {
+        "raw": "(только для ударных штабов) Арьергард",
+        "condition": {
+          "hqType": "strike"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "rearguard"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для немецких штабов) Маскировка",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "camouflage"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Tiger (P)": [
+      {
+        "raw": "Подкрепления",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "reinforcements"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Национальная особенность: Получает на 2 повреждения меньше от атак, пока у вас есть лёгкий танк.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "damageModifier",
+                "amount": -2,
+                "target": "self"
+              },
+              {
+                "op": "unparsed",
+                "text": "Получает на 2 повреждения меньше от атак, пока у вас есть лёгкий танк",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "Tiger II": [
+      {
+        "raw": "Получает на 2 повреждения больше от атак ПТ-САУ",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "damageModifier",
+                "amount": 2,
+                "target": "self"
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для немецких штабов) Арьергард",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "rearguard"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для немецких штабов) Прикрытие",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "cover"
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для тыловых штабов) Наносит на 2 повреждения больше тяжелым танкам",
+        "condition": {
+          "hqType": "rear"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "bonusDamage",
+                "amount": 2
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Training Camp": [
+      {
+        "raw": "Этот штаб имеет высокий прирост ресурсов, позволяющий ему использовать сильные карты, но зато низкую прочность.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "note",
+            "text": "Этот штаб имеет высокий прирост ресурсов, позволяющий ему использовать сильные карты, но зато низкую прочность"
+          }
+        ],
+        "coverage": "note"
+      }
+    ],
+    "Ungeschlagen": [
+      {
+        "raw": "Возьмите карту.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "draw",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для немецких тыловых штабов) Восстановите по 4 прочности своему штабу и всей своей технике.",
+        "condition": {
+          "hqType": "rear",
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Восстановите по 4 прочности своему штабу и всей своей технике"
+          }
+        ],
+        "coverage": "none"
+      }
+    ],
+    "VK 3001 (P)": [
+      {
+        "raw": "(только для немецких штабов) Прикрытие",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "keyword",
+            "keyword": "cover"
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "VK 3002 (DB)": [
+      {
+        "raw": "(только для немецких штабов) Когда атакован - возьмите карту.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "draw",
+                "amount": 1
+              },
+              {
+                "op": "unparsed",
+                "text": "Когда атакован - возьмите карту",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      },
+      {
+        "raw": "(только для тыловых штабов) Когда атакует - возьмите карту.",
+        "condition": {
+          "hqType": "rear"
+        },
+        "clauses": [
+          {
+            "op": "trigger",
+            "on": "attack",
+            "effects": [
+              {
+                "op": "draw",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Volunteers 29": [
+      {
+        "raw": "Национальная способность: +3 к прочности.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "statBonus",
+            "stat": "hp",
+            "amount": 3
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Способность активная на свободных штабах: Восстановите выбранной технике возможность перемещаться. Нанесите 1 повреждение своему штабу.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "damage",
+                "target": "ownHQ",
+                "amount": 1
+              },
+              {
+                "op": "unparsed",
+                "text": "Восстановите выбранной технике возможность перемещаться. Нанесите 1 повреждение своему штабу",
+                "reason": "разобрана только часть текста"
+              }
+            ]
+          }
+        ],
+        "coverage": "partial"
+      }
+    ],
+    "Wir kommen": [
+      {
+        "raw": "Игроки сбрасывают по 1 случайной карте из своей руки в потери.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "discardFromHand",
+                "target": "both",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для немецких штабов) Нанесите 2 повреждения штабу противника.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "damage",
+                "target": "enemyHQ",
+                "amount": 2
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Wolverine": [
+      {
+        "raw": "Национальная способность: +2 к приросту ресурсов.",
+        "condition": {
+          "hqNation": "usa"
+        },
+        "clauses": [
+          {
+            "op": "statBonus",
+            "stat": "income",
+            "amount": 2
+          }
+        ],
+        "coverage": "full"
+      }
+    ],
+    "Zweiter Wind": [
+      {
+        "raw": "Восстановите 3 прочности своему штабу.",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "heal",
+                "target": "ownHQ",
+                "amount": 3
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "Возьмите карту",
+        "condition": null,
+        "clauses": [
+          {
+            "op": "onPlay",
+            "effects": [
+              {
+                "op": "draw",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "coverage": "full"
+      },
+      {
+        "raw": "(только для немецких штабов) Если у вас в потерях больше карт, чем у противника — замешивайте случайные карты из своих потерь в колоду, пока количество карт в потерях не сравняется.",
+        "condition": {
+          "hqNation": "germany"
+        },
+        "clauses": [
+          {
+            "op": "unparsed",
+            "text": "Если у вас в потерях больше карт, чем у противника — замешивайте случайные карты из своих потерь в колоду, пока количество карт в потерях не сравняется"
+          }
+        ],
+        "coverage": "none"
+      }
+    ]
+  },
+  "keywordIndex": {
+    "А-32": [
+      {
+        "keyword": "camouflage",
+        "condition": {
+          "hqNation": "ussr"
+        }
+      }
+    ],
+    "АТ-1": [
+      {
+        "keyword": "camouflage",
+        "condition": {
+          "hqNation": "ussr"
+        }
+      }
+    ],
+    "ИС-4": [
+      {
+        "keyword": "rearguard",
+        "condition": null
+      }
+    ],
+    "ИС-7": [
+      {
+        "keyword": "cover",
+        "condition": null
+      }
+    ],
+    "ИСУ-152": [
+      {
+        "keyword": "cover",
+        "condition": {
+          "hqType": "combined"
+        }
+      }
+    ],
+    "Криминалисты": [
+      {
+        "keyword": "reinforcements",
+        "condition": null
+      }
+    ],
+    "Объект 268": [
+      {
+        "keyword": "guard",
+        "condition": {
+          "hqType": "rear"
+        }
+      }
+    ],
+    "Объект 704": [
+      {
+        "keyword": "reinforcements",
+        "condition": {
+          "hqType": "strike"
+        }
+      }
+    ],
+    "С-51": [
+      {
+        "keyword": "rearguard",
+        "condition": {
+          "hqNation": "ussr"
+        }
+      }
+    ],
+    "СУ-101": [
+      {
+        "keyword": "camouflage",
+        "condition": {
+          "hqType": "combined"
+        }
+      }
+    ],
+    "СУ-122-44": [
+      {
+        "keyword": "blitz",
+        "condition": {
+          "hqType": "combined"
+        }
+      }
+    ],
+    "СУ-122-54": [
+      {
+        "keyword": "reinforcements",
+        "condition": null
+      }
+    ],
+    "СУ-14": [
+      {
+        "keyword": "blitz",
+        "condition": {
+          "hqNation": "ussr"
+        }
+      }
+    ],
+    "СУ-76": [
+      {
+        "keyword": "guard",
+        "condition": null
+      }
+    ],
+    "СУ-8": [
+      {
+        "keyword": "reinforcements",
+        "condition": {
+          "hqNation": "ussr"
+        }
+      }
+    ],
+    "Т-34": [
+      {
+        "keyword": "massProduction",
+        "condition": null
+      },
+      {
+        "keyword": "blitz",
+        "condition": {
+          "hqNation": "ussr"
+        }
+      },
+      {
+        "keyword": "guard",
+        "condition": {
+          "hqNation": "ussr"
+        }
+      }
+    ],
+    "Т-44": [
+      {
+        "keyword": "camouflage",
+        "condition": null
+      }
+    ],
+    "Т-46": [
+      {
+        "keyword": "guard",
+        "condition": {
+          "hqNation": "ussr"
+        }
+      }
+    ],
+    "Т-54": [
+      {
+        "keyword": "cover",
+        "condition": null
+      },
+      {
+        "keyword": "blitz",
+        "condition": {
+          "hqType": "combined"
+        }
+      }
+    ],
+    "Т25 AT": [
+      {
+        "keyword": "cover",
+        "condition": null
+      }
+    ],
+    "Учебный танк": [
+      {
+        "keyword": "immobile",
+        "condition": null
+      }
+    ],
+    "Bison": [
+      {
+        "keyword": "blitz",
+        "condition": {
+          "hqNation": "germany"
+        }
+      }
+    ],
+    "E-50": [
+      {
+        "keyword": "rearguard",
+        "condition": null
+      }
+    ],
+    "E-50M": [
+      {
+        "keyword": "camouflage",
+        "condition": null
+      },
+      {
+        "keyword": "cover",
+        "condition": {
+          "hqType": "combined"
+        }
+      }
+    ],
+    "E25": [
+      {
+        "keyword": "camouflage",
+        "condition": null
+      }
+    ],
+    "Ferdinand": [
+      {
+        "keyword": "blitz",
+        "condition": {
+          "hqType": "strike"
+        }
+      }
+    ],
+    "GW Tiger": [
+      {
+        "keyword": "rearguard",
+        "condition": {
+          "hqType": "combined"
+        }
+      },
+      {
+        "keyword": "reinforcements",
+        "condition": {
+          "hqType": "combined"
+        }
+      }
+    ],
+    "GW Typ E": [
+      {
+        "keyword": "rearguard",
+        "condition": null
+      }
+    ],
+    "Jackson": [
+      {
+        "keyword": "camouflage",
+        "condition": null
+      }
+    ],
+    "JagdPz IV": [
+      {
+        "keyword": "guard",
+        "condition": null
+      }
+    ],
+    "JagdTiger": [
+      {
+        "keyword": "cover",
+        "condition": null
+      }
+    ],
+    "Löwe": [
+      {
+        "keyword": "rearguard",
+        "condition": {
+          "hqNation": "germany"
+        }
+      }
+    ],
+    "Luchs": [
+      {
+        "keyword": "blitz",
+        "condition": {
+          "hqNation": "germany"
+        }
+      }
+    ],
+    "M103": [
+      {
+        "keyword": "reinforcements",
+        "condition": null
+      }
+    ],
+    "M2 LT": [
+      {
+        "keyword": "camouflage",
+        "condition": {
+          "hqNation": "usa"
+        }
+      }
+    ],
+    "M3 Lee": [
+      {
+        "keyword": "guard",
+        "condition": {
+          "hqNation": "usa"
+        }
+      }
+    ],
+    "M40/M43": [
+      {
+        "keyword": "camouflage",
+        "condition": {
+          "hqType": "rear"
+        }
+      }
+    ],
+    "M41": [
+      {
+        "keyword": "camouflage",
+        "condition": {
+          "hqNation": "usa"
+        }
+      }
+    ],
+    "M46 Patton": [
+      {
+        "keyword": "camouflage",
+        "condition": null
+      }
+    ],
+    "M48 Patton": [
+      {
+        "keyword": "cover",
+        "condition": null
+      }
+    ],
+    "M4A2E4": [
+      {
+        "keyword": "blitz",
+        "condition": {
+          "hqNation": "usa"
+        }
+      }
+    ],
+    "M4A3E8": [
+      {
+        "keyword": "massProduction",
+        "condition": null
+      },
+      {
+        "keyword": "cover",
+        "condition": {
+          "hqNation": "usa"
+        }
+      }
+    ],
+    "M5 Stuart": [
+      {
+        "keyword": "camouflage",
+        "condition": {
+          "hqNation": "usa"
+        }
+      }
+    ],
+    "M6": [
+      {
+        "keyword": "guard",
+        "condition": null
+      },
+      {
+        "keyword": "cover",
+        "condition": {
+          "hqNation": "usa"
+        }
+      },
+      {
+        "keyword": "camouflage",
+        "condition": null
+      }
+    ],
+    "Marder II": [
+      {
+        "keyword": "blitz",
+        "condition": {
+          "hqNation": "germany"
+        }
+      }
+    ],
+    "Nachschubzug": [
+      {
+        "keyword": "blitz",
+        "condition": {
+          "hqType": "strike"
+        }
+      }
+    ],
+    "Panzerfunker H": [
+      {
+        "keyword": "rearguard",
+        "condition": {
+          "hqNation": "germany"
+        }
+      }
+    ],
+    "Pershing": [
+      {
+        "keyword": "cover",
+        "condition": null
+      },
+      {
+        "keyword": "camouflage",
+        "condition": {
+          "hqNation": "usa"
+        }
+      }
+    ],
+    "Pz38H (f)": [
+      {
+        "keyword": "guard",
+        "condition": {
+          "hqNation": "germany"
+        }
+      }
+    ],
+    "PzIII/IV": [
+      {
+        "keyword": "guard",
+        "condition": null
+      }
+    ],
+    "PzKpfw II": [
+      {
+        "keyword": "guard",
+        "condition": null
+      }
+    ],
+    "PzKpfw IV": [
+      {
+        "keyword": "massProduction",
+        "condition": null
+      }
+    ],
+    "Ru 251": [
+      {
+        "keyword": "cover",
+        "condition": {
+          "hqNation": "germany"
+        }
+      }
+    ],
+    "StuG III": [
+      {
+        "keyword": "massProduction",
+        "condition": null
+      },
+      {
+        "keyword": "guard",
+        "condition": null
+      }
+    ],
+    "Sturmpanzer II": [
+      {
+        "keyword": "reinforcements",
+        "condition": {
+          "hqNation": "germany"
+        }
+      }
+    ],
+    "T-62А": [
+      {
+        "keyword": "cover",
+        "condition": null
+      }
+    ],
+    "T20": [
+      {
+        "keyword": "cover",
+        "condition": {
+          "hqNation": "usa"
+        }
+      }
+    ],
+    "T25/2": [
+      {
+        "keyword": "guard",
+        "condition": null
+      }
+    ],
+    "T30": [
+      {
+        "keyword": "guard",
+        "condition": {
+          "hqType": "rear"
+        }
+      }
+    ],
+    "T32": [
+      {
+        "keyword": "reinforcements",
+        "condition": {
+          "hqType": "strike"
+        }
+      }
+    ],
+    "T40": [
+      {
+        "keyword": "guard",
+        "condition": {
+          "hqNation": "usa"
+        }
+      }
+    ],
+    "T57": [
+      {
+        "keyword": "camouflage",
+        "condition": {
+          "hqNation": "usa"
+        }
+      }
+    ],
+    "Tiger": [
+      {
+        "keyword": "rearguard",
+        "condition": {
+          "hqType": "strike"
+        }
+      },
+      {
+        "keyword": "camouflage",
+        "condition": {
+          "hqNation": "germany"
+        }
+      }
+    ],
+    "Tiger (P)": [
+      {
+        "keyword": "reinforcements",
+        "condition": null
+      }
+    ],
+    "Tiger II": [
+      {
+        "keyword": "rearguard",
+        "condition": {
+          "hqNation": "germany"
+        }
+      },
+      {
+        "keyword": "cover",
+        "condition": {
+          "hqNation": "germany"
+        }
+      }
+    ],
+    "VK 3001 (P)": [
+      {
+        "keyword": "cover",
+        "condition": {
+          "hqNation": "germany"
+        }
+      }
+    ]
+  },
+  "keywordNames": {
+    "rearguard": "Арьергард",
+    "blitz": "Блиц",
+    "massProduction": "Конвейер",
+    "camouflage": "Маскировка",
+    "guard": "Охранение",
+    "cover": "Прикрытие",
+    "reinforcements": "Подкрепления"
+  }
+}

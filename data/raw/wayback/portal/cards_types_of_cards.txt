@@ -1,0 +1,480 @@
+-->
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Types of Cards | World of Tanks Generals 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ Services 
+ Forum 
+ Wiki 
+ Support 
+ 
+ 
+ 
+ 
+ 
+ Log in 
+ 
+ 
+ or create account 
+ 
+ 
+
+ 
+ My Profile 
+ 
+
+ 
+ 
+ 
+ Личный кабинет 
+ 
+
+ 
+ Premium Shop 
+ 
+
+ 
+ 
+ Log out 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ -->
+ 
+ 
+ 
+ World of Tanks Generals 
+ 
+
+ 
+ Home 
+ About 
+ Hall of Fame 
+ 
+
+ 
+ Play 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ About 
+ Guide 
+
+ 
+ Types of Cards
+
+ 
+ 
+ There are four types of cards in World of Tanks Generals:
+
+ 
+ 
+ 
+ Headquarters 
+ Units 
+ Squads 
+ Orders 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ The main card of the deck. 
+ Battlefield action units. 
+ Infantry forces that support the HQ 
+ Special action cards with a one-time effect. 
+
+ 
+ 
+ 
+ 
+ 
+ Cards may have additional attributes . Some attributes only work if the HQ is of a certain nation or type. 
+
+ 
+ 
+ 
+
+ 
+ Headquarters
+
+ The HQ is your most important card and there is only one in each deck. If your HQ is destroyed, you lose the battle.
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ HQs are divided into four types:
+
+ 
+ 
+ 
+ Symbol 
+ HQ Type 
+ Description 
+
+ 
+ 
+ Training HQ 
+ Several basic HQs are available to all players. 
+
+ 
+ 
+ Assault HQ 
+ Increased firepower. 
+
+ 
+ 
+ Support HQ 
+ Increased resource growth. 
+
+ 
+ 
+ Consolidated HQ 
+ Increased hit points. 
+
+ 
+ 
+ 
+
+ HQs have the following characteristics:
+
+ 
+
+ 
+ 
+ 
+ The HQ&rsquo;s nation and type can affect some card attributes . Consider this when collecting your new deck. 
+
+ 
+ 
+ 
+
+ 
+ Units
+
+ Units are the main action cards of the game. Units represent tanks, artillery, and tank destroyers. They move on the Battlefield, attack your enemy, and make the most impact on the Battle Screen.
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ Units are divided into five types:
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Light tanks 
+ Medium tanks 
+ Heavy tanks 
+ Artillery (or SPGs) 
+ Tank destroyers 
+
+ 
+ 
+ 
+
+ Units have the following characteristics:
+
+ 
+
+ The way units move, attack, and counterattack depends on their type. See also Moving Units and Attacking and Counterattacking . 
+
+ 
+ Squads
+
+ Squads are infantry forces that support the HQ. Squads are placed on the HQ Support Panel and cannot move. Some squads help you attack your opponent while others help you defend your HQ.
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ Squads are divided into two types:
+
+ 
+ 
+ 
+ Symbol 
+ Squad Type 
+ Description 
+
+ 
+ 
+ 
+ 
+
+Assault Squad 
+ When your HQ attacks, this squad increases the HQ&rsquo;s firepower by the value of the squad strength. At the same time, the squad receives damage equal to its strength .
+ e.g. The HQ&rsquo;s firepower is 1, the assault squad strength is 2. The squad increases the HQ&rsquo;s firepower by 2 and loses 2 HP. The total firepower is 3. 
+
+ 
+ 
+ 
+ 
+
+Defensive Squad 
+ When your HQ is attacked, this squad absorbs part of the damage. The amount of damage absorbed cannot exceed the value of the squad strength.
+ e.g. The defensive squad strength is 2. If the enemy attack is 1, the squad loses 1 HP; if the attack is 2, the squad loses 2 HP; if the attack is 3, the squad loses 2 HP and the HQ loses 1 HP. 
+
+ 
+ 
+ 
+
+ Squads are also divided into five specializations:
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Reconnaissance squad 
+ Communication squad 
+ Artillery squad 
+ Medical squad 
+ Engineer squad 
+
+ 
+ 
+ 
+ 
+ 
+ You can have only one squad of each specialization in the HQ Support Panel at one time. If you deploy a second squad of the same specialization, the first squad is destroyed and put into Casualties. 
+
+ 
+ 
+ 
+
+ Squads have the following characteristics:
+
+ 
+
+ 
+ Orders
+
+ Orders are special action cards. Orders produce their effect immediately after deployment and then go to Casualties.
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ Orders have the following characteristics:
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ < Nations 
+ Categories of Cards > 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ ESRB 
+ 
+
+ 
+ facebook 
+ twitter 
+ 
+
+ 
+ Privacy Policy 
+ Terms of Service 
+ EULA 
+ 
+ 
+
+ 
+ 
+ Russia 
+
+ Русский 
+
+ 
+ 
+ Europe 
+
+ English 
+ Čeština 
+ Deutsch 
+ Español 
+ Français 
+ Polski 
+ Türkçe 
+
+ 
+ 
+ North America 
+
+ English 
+ Português 
+ Español 
+
+ 
+ 
+ Asia 
+
+ English 
+ 日本語 
+ 繁體中文 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ ESRB 
+ 
+
+ 
+ 
+ facebook 
+ twitter 
+ 
+
+ 
+ wargaming.net 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Privacy Policy 
+ Terms of Service 
+ EULA 
+ 
+ © 2009–2016 Wargaming.net

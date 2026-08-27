@@ -1,0 +1,483 @@
+-->
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Attributes of Cards | World of Tanks Generals 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ Services 
+ Forum 
+ Wiki 
+ Support 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Log in 
+ 
+
+ 
+ or create account 
+ 
+ 
+
+ 
+ My Profile 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ Личный кабинет 
+ 
+
+ 
+ Premium Shop 
+ 
+
+ 
+
+ 
+ 
+ Log out 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ -->
+ 
+ 
+ 
+ World of Tanks Generals 
+ 
+
+ 
+ 
+ 
+ Home 
+ 
+
+ 
+ About 
+ 
+
+ 
+ Hall of Fame 
+ 
+
+ 
+
+ 
+ Play 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ About 
+ 
+ 
+ 
+ Guide 
+ 
+ 
+
+ 
+ 
+ Attributes of Cards
+
+ 
+ 
+ A number of cards in World of Tanks Generals have special attributes that give them a unique strategic purpose.
+These attributes describe additional rules for the cards.
+
+ There are several types of attributes:
+
+ 
+ Key Attributes 
+
+ Dependent Attributes 
+
+ Activated Attributes 
+
+ Paid Attributes 
+ 
+
+ 
+ 
+
+ 
+ Key Attributes
+
+ 
+ 
+ 
+ Key attributes have their own names, which can be found on the cards. 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ Attribute 
+ Description 
+
+
+ 
+ Rearguard 
+ The card can be deployed for 0 resources if it is the last card in your hand. 
+
+
+ 
+ Blitz 
+ Rather than pay with resources, you can pay with the same number of random cards from your deck, which are put into Casualties. 
+
+
+ 
+ Mass Production 
+ You can add three or more copies of this card to your deck.
+ Number of copies = HQ tier + 3. 
+
+
+ 
+ Camouflage 
+ The card cannot be attacked by your enemy&rsquo;s HQ or SPG even when spotted. 
+
+
+ 
+ Defense 
+ When your HQ is attacked, this card absorbs all damage if the card is on the Bridgehead. 
+
+
+ 
+ Cover 
+ The card is not subject to counterattack. 
+
+
+ 
+ Reinforcements 
+ After playing this card, you receive an additional card in your hand. 
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+ 
+ 
+ 
+
+ 
+ Dependent Attributes
+
+ 
+ 
+ 
+ Dependent attributes only work if your HQ belongs to a certain nation and/or type. 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ Symbol 
+ Description 
+
+
+ 
+ 
+ The attribute works for assault HQs. 
+
+
+ 
+ 
+ The attribute works for support HQs. 
+
+
+ 
+ 
+ The attribute works for consolidated HQs. 
+
+
+ 
+ 
+ The attribute works for USSR HQs. 
+
+
+ 
+ 
+ The attribute works for Germany HQs. 
+
+
+ 
+ 
+ The attribute works for USA HQs. 
+
+
+ 
+ 
+ During battle, you see the attributes that work with your current HQ nation and type. You can view all card attributes in the Deck Editor .
+
+ 
+ 
+ 
+
+ 
+
+
+ 
+ 
+ 
+
+ 
+ Activated Attributes
+
+ 
+ 
+ 
+ 
+ Some cards have an activated attribute that can be used once per turn instead of attack.
+
+Activated attributes are marked with a special symbol with two arrows. 
+ 
+ 
+
+ 
+
+
+ 
+ 
+ 
+
+ 
+ Paid Attributes
+
+ 
+ 
+ 
+ 
+ Some cards have a paid attribute that can be used several times during your turn. To activate this attribute, you pay resources equal to the number on the jerrycan.
+
+Paid attributes are marked with a jerrycan. 
+ 
+ 
+
+ 
+
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ < Categories of Cards 
+ GETTING READY FOR BATTLE > 
+
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ ESRB 
+ 
+
+ 
+ 
+ facebook 
+ twitter 
+ 
+
+ 
+ Privacy Policy 
+ Terms of Service 
+ EULA 
+ 
+ 
+
+ 
+ 
+ Russia 
+
+ Русский 
+
+ 
+ 
+ Europe 
+
+ English 
+ Čeština 
+ Deutsch 
+ Español 
+ Français 
+ Polski 
+ Türkçe 
+
+ 
+ 
+ North America 
+
+ English 
+ Português 
+ Español 
+
+ 
+ 
+ Asia 
+
+ English 
+ 日本語 
+ 繁體中文 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ ESRB 
+ 
+
+ 
+ 
+ 
+ facebook 
+ twitter 
+ 
+
+ 
+ wargaming.net 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Privacy Policy 
+ Terms of Service 
+ EULA 
+ 
+ © 2009–2016 Wargaming.net

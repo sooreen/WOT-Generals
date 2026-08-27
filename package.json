@@ -1,0 +1,36 @@
+{
+  "name": "wot-generals",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Реконструкция карточной игры World of Tanks Generals: документация, база карт и играбельная реализация",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "scrape:wiki": "node tools/scrape/fetch-wiki.mjs",
+    "scrape:classes": "node tools/scrape/resolve-classes.mjs",
+    "scrape:assets": "node tools/scrape/fetch-assets.mjs",
+    "scrape:wayback": "node tools/scrape/fetch-wayback.mjs",
+    "data:parse": "node tools/scrape/parse-cards.mjs",
+    "data:abilities": "node tools/build-abilities.mjs",
+    "docs:build": "node tools/gen-docs.mjs",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "dev": "pnpm --filter @wotg/server dev",
+    "start": "pnpm --filter @wotg/server start"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0",
+    "tsx": "^4.23.12",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "packageManager": "pnpm@10.29.3",
+  "dependencies": {
+    "@wotg/ai": "workspace:*",
+    "@wotg/engine": "workspace:*",
+    "@wotg/shared": "workspace:*"
+  }
+}

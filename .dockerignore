@@ -1,0 +1,9 @@
+node_modules
+**/node_modules
+**/dist
+.git
+.cache
+*.log
+.env
+tools/scrape/.tmp
+data/raw

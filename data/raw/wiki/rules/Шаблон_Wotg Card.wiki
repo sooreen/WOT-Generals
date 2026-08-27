@@ -1,0 +1,181 @@
+<includeonly>
+{{ЗакрытаяИгра}}
+{{DISPLAYTITLE:{{{Имя карты}}} }}
+<div class="gw-frame-1" style="margin: 0px">
+<table width="100%">
+<tr>
+<td width="315px">
+[[Файл:Wotg anno {{{Картинка}}}.png|300px]]
+</td>
+<td>
+<div style="margin-top:20px;">{{{Описание}}}</div>
+{{#if:{{{Старые названия|}}}|
+<br><br>'''Старые названия:''' {{{Старые названия}}}<br>
+}}
+{{#if:{{{Прозвища|}}}|
+'''Прозвища в игре:''' {{{Прозвища}}}
+}}
+{{Сепаратор|малый}}
+<table width="100%" style="text-align: center">
+{{#switch: {{{Тип карты}}}
+| Vehicle =  
+<tr>
+<td style{{=}}"height: 40px; color: #ffffff; text-shadow: 0px 0px 3px #000000,0px 0px 10px #000000; font-size: 60px; font-family: WarHeliosCondCBold;">{{{Атака}}}</td>
+<td style{{=}}"color: #ffffff; text-shadow: 0px 0px 3px #000000,0px 0px 10px #000000; font-size: 60px; font-family: WarHeliosCondCBold;">{{{Прочность}}}</td>
+<td style{{=}}"color: #ffffff; text-shadow: 0px 0px 3px #000000,0px 0px 10px #000000; font-size: 60px; font-family: WarHeliosCondCBold;">{{{Вывод}}}</td>
+<td style{{=}}"color: #ffffff; text-shadow: 0px 0px 3px #000000,0px 0px 10px #000000; font-size: 60px; font-family: WarHeliosCondCBold;">{{{Прирост}}}</td>
+</tr>
+<tr>
+<td style{{=}}"font-size: 14px; font-family: WarHeliosCondCBold; text-shadow: 0px 0px 3px #939393,0px 0px 12px #939393; color: #616161;">Атака</td>
+<td style{{=}}"font-size: 14px; font-family: WarHeliosCondCBold; text-shadow: 0px 0px 3px #939393,0px 0px 12px #939393; color: #616161;">Прочность</td>
+<td style{{=}}"font-size: 14px; font-family: WarHeliosCondCBold; text-shadow: 0px 0px 3px #939393,0px 0px 12px #939393; color: #616161;">Вывод</td>
+<td style{{=}}"font-size: 14px; font-family: WarHeliosCondCBold; text-shadow: 0px 0px 3px #939393,0px 0px 12px #939393; color: #616161;">Прирост</td>
+</tr>
+| HQ = 
+<tr>
+<td style{{=}}"height: 40px; color: #ffffff; text-shadow: 0px 0px 3px #000000,0px 0px 10px #000000; font-size: 60px; font-family: WarHeliosCondCBold;">{{{Атака}}}</td>
+<td style{{=}}"color: #ffffff; text-shadow: 0px 0px 3px #000000,0px 0px 10px #000000; font-size: 60px; font-family: WarHeliosCondCBold;">{{{Прочность}}}</td>
+<td style{{=}}"color: #ffffff; text-shadow: 0px 0px 3px #000000,0px 0px 10px #000000; font-size: 60px; font-family: WarHeliosCondCBold;">{{{Прирост}}}</td>
+</tr>
+<tr>
+<td style{{=}}"font-size: 14px; font-family: WarHeliosCondCBold; text-shadow: 0px 0px 3px #939393,0px 0px 12px #939393; color: #616161;">Атака</td>
+<td style{{=}}"font-size: 14px; font-family: WarHeliosCondCBold; text-shadow: 0px 0px 3px #939393,0px 0px 12px #939393; color: #616161;">Прочность</td>
+<td style{{=}}"font-size: 14px; font-family: WarHeliosCondCBold; text-shadow: 0px 0px 3px #939393,0px 0px 12px #939393; color: #616161;">Прирост</td>
+</tr>
+| Platoon =  
+<tr>
+<td style{{=}}"height: 40px; color: #ffffff; text-shadow: 0px 0px 3px #000000,0px 0px 10px #000000; font-size: 60px; font-family: WarHeliosCondCBold;">{{{Атака}}}</td>
+<td style{{=}}"color: #ffffff; text-shadow: 0px 0px 3px #000000,0px 0px 10px #000000; font-size: 60px; font-family: WarHeliosCondCBold;">{{{Прочность}}}</td>
+<td style{{=}}"color: #ffffff; text-shadow: 0px 0px 3px #000000,0px 0px 10px #000000; font-size: 60px; font-family: WarHeliosCondCBold;">{{{Вывод}}}</td>
+<td style{{=}}"color: #ffffff; text-shadow: 0px 0px 3px #000000,0px 0px 10px #000000; font-size: 60px; font-family: WarHeliosCondCBold;">{{{Прирост}}}</td>
+</tr>
+<tr>
+<td width="25%" style{{=}}"font-size: 14px; font-family: WarHeliosCondCBold; text-shadow: 0px 0px 3px #939393,0px 0px 12px #939393; color: #616161;">Бонус к {{#switch: {{{Бонус взвода}}} 
+|Атака = атаке 
+|Защита = защите 
+|атаке}}</td>
+<td width="25%" style{{=}}"font-size: 14px; font-family: WarHeliosCondCBold; text-shadow: 0px 0px 3px #939393,0px 0px 12px #939393; color: #616161;">Прочность</td>
+<td width="25%" style{{=}}"font-size: 14px; font-family: WarHeliosCondCBold; text-shadow: 0px 0px 3px #939393,0px 0px 12px #939393; color: #616161;">Вывод</td>
+<td width="25%" style{{=}}"font-size: 14px; font-family: WarHeliosCondCBold; text-shadow: 0px 0px 3px #939393,0px 0px 12px #939393; color: #616161;">Прирост</td>
+</tr>
+| Order =  
+<tr>
+<td style{{=}}"height: 40px; color: #ffffff; text-shadow: 0px 0px 3px #000000,0px 0px 10px #000000; font-size: 60px; font-family: WarHeliosCondCBold;">{{{Вывод}}}</td>
+</tr>
+<tr>
+<td style{{=}}"font-size: 14px; font-family: WarHeliosCondCBold; text-shadow: 0px 0px 3px #939393,0px 0px 12px #939393; color: #616161;">Вывод</td>
+</tr>
+|
+<tr>
+<td style{{=}}"height: 40px; color: #ffffff; text-shadow: 0px 0px 3px #000000,0px 0px 10px #000000; font-size: 60px; font-family: WarHeliosCondCBold;">{{{Атака}}}</td>
+<td style{{=}}"color: #ffffff; text-shadow: 0px 0px 3px #000000,0px 0px 10px #000000; font-size: 60px; font-family: WarHeliosCondCBold;">{{{Прочность}}}</td>
+<td style{{=}}"color: #ffffff; text-shadow: 0px 0px 3px #000000,0px 0px 10px #000000; font-size: 60px; font-family: WarHeliosCondCBold;">{{{Вывод}}}</td>
+<td style{{=}}"color: #ffffff; text-shadow: 0px 0px 3px #000000,0px 0px 10px #000000; font-size: 60px; font-family: WarHeliosCondCBold;">{{{Прирост}}}</td>
+</tr>
+<tr>
+<td style{{=}}"font-size: 14px; font-family: WarHeliosCondCBold; text-shadow: 0px 0px 3px #939393,0px 0px 12px #939393; color: #616161;">Атака</td>
+<td style{{=}}"font-size: 14px; font-family: WarHeliosCondCBold; text-shadow: 0px 0px 3px #939393,0px 0px 12px #939393; color: #616161;">Прочность</td>
+<td style{{=}}"font-size: 14px; font-family: WarHeliosCondCBold; text-shadow: 0px 0px 3px #939393,0px 0px 12px #939393; color: #616161;">Вывод</td>
+<td style{{=}}"font-size: 14px; font-family: WarHeliosCondCBold; text-shadow: 0px 0px 3px #939393,0px 0px 12px #939393; color: #616161;">Прирост</td>
+</tr>
+}}
+</table>
+{{Сепаратор|малый}}
+
+<div style="position: relative; top:-5px">
+<div style="position: relative; width: 290px; float: right; ">
+<div style="position: relative; text-align: center; color: #ffffff; font-size: 23px; font-family: WarHeliosCondCBold">
+<span style="text-shadow: 0px 0px 3px #000000,0px 0px 10px #000000">
+{{#switch: {{{Вид карты}}}
+|Del = <br>Акционная карта
+|Training = <br>Учебная карта
+|Prem = <br>Премиум карта
+|Start = <br>Стартовая карта
+|Gift =  <br>Подарочная карта
+|Штаб:
+}}
+</span>
+{{#switch: {{{Вид карты}}}
+|Del =  
+|Training =  
+|Prem =  
+|Start =  
+|Gift =  
+|[[Card:{{{Штаб|}}}|{{{Штаб|}}}]]
+}}
+</div>
+{{#switch: {{{Вид карты}}}
+|Del =  
+|Training =  
+|Prem =  
+|Start =  
+|Gift =   
+|{{Ветка2 wotg
+|Штаб = {{{Штаб|}}}
+|Предыдущая карта = {{{Предыдущая карта|}}}
+|Имя карты = {{{Имя карты|}}}
+|Следующая карта = {{{Следующая карта|}}}
+}}
+}}
+</div>
+<div style="margin-right: 290px; clear: left; position: relative; overflow-x: hidden">
+<table width="100%" style="text-align: center">
+<tr>
+<td style="padding-top: 5px; text-align: center">
+{{#switch: {{{Имя карты}}}
+|Учебный танк = {{Wotg_Card_Gift}}
+|{{#switch: {{{Вид карты}}}
+|Del =  {{Wotg_Card_Deleted|{{{Уровень}}}|{{{Тип карты}}}}}
+|Training = {{Wotg_Card_Training}}
+|Prem = {{Wotg_Card_Gold|{{{Кредиты}}}}}
+|Start = {{Wotg_Card_Silver|{{{Уровень}}}|{{{Тип карты}}}}}
+|Gift =  {{Wotg_Card_Gift}}
+|Naem = {{Wotg_Card_Naem|{{{Уровень}}}}}
+|Norm = {{Wotg_Card_Silver|{{{Уровень}}}|{{{Тип карты}}}}}
+|{{Wotg_Card_Silver|{{{Уровень}}}|{{{Тип карты}}}}}
+}}
+}}
+
+</td>
+<td style="padding-top: 5px; color: #ffffff; text-shadow: 0px 0px 3px #000000,0px 0px 10px #000000; font-size: 60px; font-family: WarHeliosCondCBold;"><div style="position:relative; top:13px;">
+{{#switch: {{{Тип карты}}}
+|HQ = {{Wotg_Card_HQ|{{{Уровень}}}}}
+|{{#switch: {{{Уровень}}}
+|1 = 1
+|2 = 3
+|3 = 7
+|4 = 15
+|5 = 31
+|5(К) = 31
+|6 = 63
+|6(К) = 63
+|7 = 127
+|7(К) = 127
+|8 = 255
+|9 = 511
+|10 = 1023
+| ---
+}}
+}}
+</div></td>
+</tr>
+<tr>
+<td style="font-size: 14px; font-family: WarHeliosCondCBold; text-shadow: 0px 0px 3px #939393,0px 0px 12px #939393; color: #616161;">Стоимость</td>
+<td style="font-size: 14px; font-family: WarHeliosCondCBold; text-shadow: 0px 0px 3px #939393,0px 0px 12px #939393; color: #616161;">Балансный вес</td>
+</tr>
+</table>
+</div>
+</div>
+{{--}}
+<div style="position: relative; top:-40px; margin-bottom:-40px ">
+{{Сепаратор|малый}}
+{{#switch: {{{Вид карты}}}
+|Naem = {{Wotg_Card_Naem2|{{{Уровень}}}}}
+{{Сепаратор|малый}}
+}}
+{{{Способности}}}</div>
+</td>
+</tr>
+</table>
+</div></includeonly>
+<noinclude>{{doc}}</noinclude>

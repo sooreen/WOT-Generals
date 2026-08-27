@@ -1,0 +1,1904 @@
+{
+  "Training Camp": {
+    "branch": "Training Camp",
+    "nation": "usa",
+    "nodes": [
+      {
+        "name": "11th Squadron",
+        "kind": "hq",
+        "tier": 4,
+        "xp": 2620,
+        "credits": 22400,
+        "prev": [
+          "T2 MT"
+        ],
+        "next": [
+          "Signalers 1",
+          "M37",
+          "T40"
+        ],
+        "unknownRefs": [
+          "T2 MT",
+          "Signalers 1",
+          "M37"
+        ]
+      },
+      {
+        "name": "2nd Armored",
+        "kind": "hq",
+        "tier": 4,
+        "xp": 2620,
+        "credits": 22400,
+        "prev": [
+          "M3 Stuart"
+        ],
+        "next": [
+          "Gunners NG",
+          "Focus Fire",
+          "Recruitment Drive"
+        ],
+        "unknownRefs": [
+          "Gunners NG",
+          "Focus Fire",
+          "Recruitment Drive"
+        ]
+      },
+      {
+        "name": "3rd Airborne",
+        "kind": "hq",
+        "tier": 4,
+        "xp": 2620,
+        "credits": 22400,
+        "prev": [
+          "T57"
+        ],
+        "next": [
+          "Telephonists EF",
+          "Wolverine",
+          "M7 Priest"
+        ],
+        "unknownRefs": [
+          "M7 Priest"
+        ]
+      },
+      {
+        "name": "Double Efforts",
+        "kind": "order",
+        "tier": 2,
+        "xp": 380,
+        "credits": 3250,
+        "prev": [],
+        "next": [
+          "T57"
+        ],
+        "unknownRefs": []
+      },
+      {
+        "name": "Liberty",
+        "kind": "vehicle",
+        "tier": 2,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "T2 MT"
+        ],
+        "unknownRefs": [
+          "T2 MT"
+        ]
+      },
+      {
+        "name": "M2 LT",
+        "kind": "vehicle",
+        "tier": 2,
+        "xp": 380,
+        "credits": 3250,
+        "prev": [],
+        "next": [
+          "M3 Stuart"
+        ],
+        "unknownRefs": []
+      },
+      {
+        "name": "M3 Stuart",
+        "kind": "vehicle",
+        "tier": 3,
+        "xp": 630,
+        "credits": 5400,
+        "prev": [
+          "M2 LT"
+        ],
+        "next": [
+          "2nd Armored"
+        ],
+        "unknownRefs": []
+      },
+      {
+        "name": "T57",
+        "kind": "vehicle",
+        "tier": 3,
+        "xp": 380,
+        "credits": 3250,
+        "prev": [
+          "Double Efforts"
+        ],
+        "next": [
+          "3rd Airborne"
+        ],
+        "unknownRefs": []
+      },
+      {
+        "name": "Training Camp",
+        "kind": "hq",
+        "tier": 1,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "Liberty",
+          "M2 LT",
+          "Double Efforts"
+        ],
+        "unknownRefs": []
+      }
+    ]
+  },
+  "13-я дивизия": {
+    "branch": "13-я дивизия",
+    "nation": "ussr",
+    "nodes": [
+      {
+        "name": "13-я дивизия",
+        "kind": "hq",
+        "tier": 4,
+        "xp": null,
+        "credits": 4000,
+        "prev": [],
+        "next": [],
+        "unknownRefs": []
+      }
+    ]
+  },
+  "Учебная часть": {
+    "branch": "Учебная часть",
+    "nation": "ussr",
+    "nodes": [
+      {
+        "name": "21-й танковый",
+        "kind": "hq",
+        "tier": 4,
+        "xp": 2620,
+        "credits": null,
+        "prev": [
+          "Т-26"
+        ],
+        "next": [
+          "СУ-76",
+          "Т-28",
+          "Криминалисты"
+        ],
+        "unknownRefs": []
+      },
+      {
+        "name": "4-я дивизия",
+        "kind": "hq",
+        "tier": 4,
+        "xp": 2620,
+        "credits": null,
+        "prev": [
+          "Взять цель!"
+        ],
+        "next": [
+          "СУ-5",
+          "СУ-85",
+          "Кто с мечом к нам придёт"
+        ],
+        "unknownRefs": [
+          "Взять цель!",
+          "СУ-5",
+          "Кто с мечом к нам придёт"
+        ]
+      },
+      {
+        "name": "7-й танковый",
+        "kind": "hq",
+        "tier": 4,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Т-26"
+        ],
+        "next": [
+          "Обеспечение 8А",
+          "СУ-122А",
+          "Т-46"
+        ],
+        "unknownRefs": [
+          "Обеспечение 8А",
+          "СУ-122А"
+        ]
+      },
+      {
+        "name": "АТ-1",
+        "kind": "vehicle",
+        "tier": 3,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "БТ-2",
+        "kind": "vehicle",
+        "tier": 2,
+        "xp": 380,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "T-26"
+        ],
+        "unknownRefs": [
+          "T-26"
+        ]
+      },
+      {
+        "name": "Т-26",
+        "kind": "vehicle",
+        "tier": 3,
+        "xp": 630,
+        "credits": null,
+        "prev": [
+          "БТ-2"
+        ],
+        "next": [
+          "7-й танковый"
+        ],
+        "unknownRefs": []
+      },
+      {
+        "name": "Учебная часть",
+        "kind": "hq",
+        "tier": 1,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "Т-35-1",
+          "БТ-2",
+          "Отстоим!"
+        ],
+        "unknownRefs": [
+          "Т-35-1",
+          "Отстоим!"
+        ]
+      }
+    ]
+  },
+  "4-я дивизия": {
+    "branch": "4-я дивизия",
+    "nation": "ussr",
+    "nodes": [
+      {
+        "name": "3-я дивизия",
+        "kind": "hq",
+        "tier": 8,
+        "xp": 39180,
+        "credits": null,
+        "prev": [
+          "Тысячи тысяч"
+        ],
+        "next": [
+          "ИС",
+          "СУ-14",
+          "Т-44"
+        ],
+        "unknownRefs": [
+          "Тысячи тысяч",
+          "ИС"
+        ]
+      },
+      {
+        "name": "Артиллеристы 17",
+        "kind": "platoon",
+        "tier": 3,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "СУ-85"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "СУ-85",
+        "kind": "vehicle",
+        "tier": 5,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "Тысячи тысяч",
+          "Артиллеристы 17"
+        ],
+        "unknownRefs": [
+          "Тысячи тысяч"
+        ]
+      },
+      {
+        "name": "Т-80",
+        "kind": "vehicle",
+        "tier": 5,
+        "xp": 30600,
+        "credits": null,
+        "prev": [
+          "На прорыв!"
+        ],
+        "next": [],
+        "unknownRefs": [
+          "На прорыв!"
+        ]
+      }
+    ]
+  },
+  "7-й танковый": {
+    "branch": "7-й танковый",
+    "nation": "ussr",
+    "nodes": [
+      {
+        "name": "41-я танковая",
+        "kind": "hq",
+        "tier": 8,
+        "xp": 39180,
+        "credits": null,
+        "prev": [
+          "Зов Родины"
+        ],
+        "next": [
+          "Пограничники",
+          "Т-34-85",
+          "С-51"
+        ],
+        "unknownRefs": [
+          "Зов Родины",
+          "Пограничники",
+          "Т-34-85"
+        ]
+      },
+      {
+        "name": "Без пощады",
+        "kind": "order",
+        "tier": 5,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Обеспечение 8А"
+        ],
+        "next": [],
+        "unknownRefs": [
+          "Обеспечение 8А"
+        ]
+      },
+      {
+        "name": "СУ-100",
+        "kind": "vehicle",
+        "tier": 6,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Т-34"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "Т-34",
+        "kind": "vehicle",
+        "tier": 6,
+        "xp": 5660,
+        "credits": null,
+        "prev": [
+          "Т-46"
+        ],
+        "next": [
+          "СУ-100"
+        ],
+        "unknownRefs": []
+      },
+      {
+        "name": "Т-46",
+        "kind": "vehicle",
+        "tier": 4,
+        "xp": 2040,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "Болтун",
+          "Т-34"
+        ],
+        "unknownRefs": [
+          "Болтун"
+        ]
+      }
+    ]
+  },
+  "11th Squadron": {
+    "branch": "11th Squadron",
+    "nation": "usa",
+    "nodes": [
+      {
+        "name": "501 AD",
+        "kind": "platoon",
+        "tier": 6,
+        "xp": 5660,
+        "credits": 79750,
+        "prev": [
+          "Signalers 1"
+        ],
+        "next": [
+          "The Key"
+        ],
+        "unknownRefs": [
+          "Signalers 1"
+        ]
+      },
+      {
+        "name": "Air Supremacy",
+        "kind": "order",
+        "tier": 4,
+        "xp": 2040,
+        "credits": 28800,
+        "prev": [
+          "Signalers 1"
+        ],
+        "next": [],
+        "unknownRefs": [
+          "Signalers 1"
+        ]
+      },
+      {
+        "name": "M2 MT",
+        "kind": "vehicle",
+        "tier": 4,
+        "xp": 20400,
+        "credits": 57600,
+        "prev": [
+          "T40"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "T40",
+        "kind": "vehicle",
+        "tier": 4,
+        "xp": 2040,
+        "credits": 28800,
+        "prev": [],
+        "next": [
+          "M2 MT",
+          "T1 Heavy"
+        ],
+        "unknownRefs": [
+          "T1 Heavy"
+        ]
+      },
+      {
+        "name": "The Key",
+        "kind": "order",
+        "tier": 6,
+        "xp": 45300,
+        "credits": 159500,
+        "prev": [
+          "501 AD"
+        ],
+        "next": [],
+        "unknownRefs": []
+      }
+    ]
+  },
+  "21-й танковый": {
+    "branch": "21-й танковый",
+    "nation": "ussr",
+    "nodes": [
+      {
+        "name": "60-я танковая",
+        "kind": "hq",
+        "tier": 8,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Всё для Победы"
+        ],
+        "next": [
+          "Т-54",
+          "КВ-1С",
+          "Объект 212"
+        ],
+        "unknownRefs": [
+          "Всё для Победы",
+          "КВ-1С",
+          "Объект 212"
+        ]
+      },
+      {
+        "name": "Криминалисты",
+        "kind": "platoon",
+        "tier": 4,
+        "xp": 2040,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "Разведчики БФ"
+        ],
+        "unknownRefs": [
+          "Разведчики БФ"
+        ]
+      },
+      {
+        "name": "СУ-76",
+        "kind": "vehicle",
+        "tier": 4,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "СУ-152",
+          "Слава партизанам"
+        ],
+        "unknownRefs": [
+          "СУ-152",
+          "Слава партизанам"
+        ]
+      },
+      {
+        "name": "СУ-8",
+        "kind": "vehicle",
+        "tier": 6,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Разведчики БФ"
+        ],
+        "next": [],
+        "unknownRefs": [
+          "Разведчики БФ"
+        ]
+      },
+      {
+        "name": "Т-28",
+        "kind": "vehicle",
+        "tier": 5,
+        "xp": 3400,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "Всё для Победы",
+          "СУ-26"
+        ],
+        "unknownRefs": [
+          "Всё для Победы",
+          "СУ-26"
+        ]
+      }
+    ]
+  },
+  "2nd Armored": {
+    "branch": "2nd Armored",
+    "nation": "usa",
+    "nodes": [
+      {
+        "name": "7th Armored",
+        "kind": "hq",
+        "tier": 8,
+        "xp": 39180,
+        "credits": 552000,
+        "prev": [
+          "As One"
+        ],
+        "next": [
+          "M12",
+          "M4A3E8",
+          "T110E4"
+        ],
+        "unknownRefs": [
+          "As One",
+          "M12",
+          "T110E4"
+        ]
+      },
+      {
+        "name": "Т82",
+        "kind": "vehicle",
+        "tier": 3,
+        "xp": 630,
+        "credits": 5400,
+        "prev": [
+          "Recruitment Drive"
+        ],
+        "next": [],
+        "unknownRefs": [
+          "Recruitment Drive"
+        ]
+      },
+      {
+        "name": "Be the Hero",
+        "kind": "order",
+        "tier": 6,
+        "xp": 45300,
+        "credits": 159500,
+        "prev": [
+          "Recruitment Drive"
+        ],
+        "next": [],
+        "unknownRefs": [
+          "Recruitment Drive"
+        ]
+      },
+      {
+        "name": "Jackson",
+        "kind": "vehicle",
+        "tier": 6,
+        "xp": 5660,
+        "credits": 79750,
+        "prev": [
+          "M41"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "M41",
+        "kind": "vehicle",
+        "tier": 6,
+        "xp": 5660,
+        "credits": 79750,
+        "prev": [
+          "Gunners NG"
+        ],
+        "next": [
+          "Jackson"
+        ],
+        "unknownRefs": [
+          "Gunners NG"
+        ]
+      },
+      {
+        "name": "M5 Stuart",
+        "kind": "vehicle",
+        "tier": 4,
+        "xp": 20400,
+        "credits": 57600,
+        "prev": [
+          "Gunners NG"
+        ],
+        "next": [],
+        "unknownRefs": [
+          "Gunners NG"
+        ]
+      }
+    ]
+  },
+  "60-я танковая": {
+    "branch": "60-я танковая",
+    "nation": "ussr",
+    "nodes": [
+      {
+        "name": "ИС-4",
+        "kind": "vehicle",
+        "tier": 10,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "КВ-1С"
+        ],
+        "next": [],
+        "unknownRefs": [
+          "КВ-1С"
+        ]
+      },
+      {
+        "name": "ИСУ-152",
+        "kind": "vehicle",
+        "tier": 8,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "СУ-101"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "СУ-101",
+        "kind": "vehicle",
+        "tier": 7,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "ИСУ-152",
+          "Объект 212"
+        ],
+        "unknownRefs": [
+          "Объект 212"
+        ]
+      },
+      {
+        "name": "Т-54",
+        "kind": "vehicle",
+        "tier": 10,
+        "xp": 69610,
+        "credits": null,
+        "prev": [
+          "T-43"
+        ],
+        "next": [],
+        "unknownRefs": [
+          "T-43"
+        ]
+      }
+    ]
+  },
+  "41-я танковая": {
+    "branch": "41-я танковая",
+    "nation": "ussr",
+    "nodes": [
+      {
+        "name": "ИС-7",
+        "kind": "vehicle",
+        "tier": 10,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Т-34-85"
+        ],
+        "next": [],
+        "unknownRefs": [
+          "Т-34-85"
+        ]
+      },
+      {
+        "name": "Объект 261",
+        "kind": "vehicle",
+        "tier": 10,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "С-51"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "Объект 704",
+        "kind": "vehicle",
+        "tier": 9,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Пограничники"
+        ],
+        "next": [],
+        "unknownRefs": [
+          "Пограничники"
+        ]
+      },
+      {
+        "name": "С-51",
+        "kind": "vehicle",
+        "tier": 7,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "СУ-122-54",
+          "Объект 261"
+        ],
+        "unknownRefs": []
+      },
+      {
+        "name": "СУ-122-54",
+        "kind": "vehicle",
+        "tier": 9,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "С-51"
+        ],
+        "next": [],
+        "unknownRefs": []
+      }
+    ]
+  },
+  "3-я дивизия": {
+    "branch": "3-я дивизия",
+    "nation": "ussr",
+    "nodes": [
+      {
+        "name": "Объект 268",
+        "kind": "vehicle",
+        "tier": 10,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "СУ-14"
+        ],
+        "next": [
+          "Все вместе"
+        ],
+        "unknownRefs": [
+          "Все вместе"
+        ]
+      },
+      {
+        "name": "СУ-14",
+        "kind": "vehicle",
+        "tier": 8,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "Объект 268",
+          "Телефонисты 30"
+        ],
+        "unknownRefs": [
+          "Телефонисты 30"
+        ]
+      },
+      {
+        "name": "Т-44",
+        "kind": "vehicle",
+        "tier": 9,
+        "xp": 41830,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "T-62А"
+        ],
+        "unknownRefs": []
+      },
+      {
+        "name": "T-62А",
+        "kind": "vehicle",
+        "tier": 10,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Т-44"
+        ],
+        "next": [],
+        "unknownRefs": []
+      }
+    ]
+  },
+  "Спецгруппа": {
+    "branch": "Спецгруппа",
+    "nation": "ussr",
+    "nodes": [
+      {
+        "name": "Спецгруппа",
+        "kind": "hq",
+        "tier": 4,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [],
+        "unknownRefs": []
+      }
+    ]
+  },
+  "10th Mountain": {
+    "branch": "10th Mountain",
+    "nation": "usa",
+    "nodes": [
+      {
+        "name": "Т25 AT",
+        "kind": "vehicle",
+        "tier": 7,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "T25/2"
+        ],
+        "next": [
+          "Path to Victory"
+        ],
+        "unknownRefs": [
+          "Path to Victory"
+        ]
+      },
+      {
+        "name": "M103",
+        "kind": "vehicle",
+        "tier": 9,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "M40/M43"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "M40/M43",
+        "kind": "vehicle",
+        "tier": 9,
+        "xp": 41830,
+        "credits": 616250,
+        "prev": [
+          "10th Mountain"
+        ],
+        "next": [
+          "M103",
+          "T30"
+        ],
+        "unknownRefs": [
+          "10th Mountain"
+        ]
+      },
+      {
+        "name": "Mortars 17",
+        "kind": "platoon",
+        "tier": 7,
+        "xp": 9420,
+        "credits": 132750,
+        "prev": [
+          "T25/2"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "T110E5",
+        "kind": "vehicle",
+        "tier": 10,
+        "xp": 69610,
+        "credits": 1025500,
+        "prev": [],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "T25/2",
+        "kind": "vehicle",
+        "tier": 7,
+        "xp": 9420,
+        "credits": 132750,
+        "prev": [],
+        "next": [
+          "Mortars 17",
+          "Path to Victory"
+        ],
+        "unknownRefs": [
+          "Path to Victory"
+        ]
+      },
+      {
+        "name": "T30",
+        "kind": "vehicle",
+        "tier": 10,
+        "xp": 69610,
+        "credits": 1025500,
+        "prev": [
+          "M40/M43"
+        ],
+        "next": [],
+        "unknownRefs": []
+      }
+    ]
+  },
+  "11th Airborne": {
+    "branch": "11th Airborne",
+    "nation": "usa",
+    "nodes": [
+      {
+        "name": "Т28",
+        "kind": "vehicle",
+        "tier": 8,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "T28 Prot."
+        ],
+        "next": [],
+        "unknownRefs": [
+          "T28 Prot."
+        ]
+      },
+      {
+        "name": "M46 Patton",
+        "kind": "vehicle",
+        "tier": 10,
+        "xp": 69610,
+        "credits": 1025500,
+        "prev": [
+          "M6"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "M6",
+        "kind": "vehicle",
+        "tier": 8,
+        "xp": 25130,
+        "credits": 370250,
+        "prev": [
+          "T20"
+        ],
+        "next": [
+          "T92"
+        ],
+        "unknownRefs": [
+          "T92"
+        ]
+      },
+      {
+        "name": "T20",
+        "kind": "vehicle",
+        "tier": 7,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "M6"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "Volunteers 29",
+        "kind": "platoon",
+        "tier": 8,
+        "xp": 150800,
+        "credits": 740800,
+        "prev": [],
+        "next": [],
+        "unknownRefs": []
+      }
+    ]
+  },
+  "Trainingslager": {
+    "branch": "Trainingslager",
+    "nation": "germany",
+    "nodes": [
+      {
+        "name": "A7V",
+        "kind": "vehicle",
+        "tier": 2,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "Bison"
+        ],
+        "unknownRefs": []
+      },
+      {
+        "name": "Bison",
+        "kind": "vehicle",
+        "tier": 3,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "A7V"
+        ],
+        "next": [
+          "PzD Kurmark"
+        ],
+        "unknownRefs": []
+      },
+      {
+        "name": "Leichttraktor",
+        "kind": "vehicle",
+        "tier": 1,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "Pz35(t)",
+        "kind": "vehicle",
+        "tier": 2,
+        "xp": 380,
+        "credits": 3250,
+        "prev": [],
+        "next": [
+          "Pz38(t)"
+        ],
+        "unknownRefs": []
+      },
+      {
+        "name": "Pz35(t)",
+        "kind": "vehicle",
+        "tier": 2,
+        "xp": 380,
+        "credits": 3250,
+        "prev": [
+          "Trainingslager"
+        ],
+        "next": [
+          "Pz38t"
+        ],
+        "unknownRefs": [
+          "Pz38t"
+        ]
+      },
+      {
+        "name": "Pz38(t)",
+        "kind": "vehicle",
+        "tier": 3,
+        "xp": 6930,
+        "credits": null,
+        "prev": [
+          "Pz35(t)"
+        ],
+        "next": [
+          "PzD Clausewitz"
+        ],
+        "unknownRefs": [
+          "PzD Clausewitz"
+        ]
+      },
+      {
+        "name": "PzD Kurmark",
+        "kind": "hq",
+        "tier": 4,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Bison"
+        ],
+        "next": [
+          "Fernschreiber K",
+          "Panzerfunker H",
+          "Hetzer"
+        ],
+        "unknownRefs": []
+      },
+      {
+        "name": "Trainingslager",
+        "kind": "hq",
+        "tier": 1,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "A7V",
+          "Wir kommen",
+          "Pz35(t)"
+        ],
+        "unknownRefs": []
+      },
+      {
+        "name": "Wir kommen",
+        "kind": "order",
+        "tier": 2,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "Kraft und List"
+        ],
+        "unknownRefs": [
+          "Kraft und List"
+        ]
+      }
+    ]
+  },
+  "PzD Kurmark": {
+    "branch": "PzD Kurmark",
+    "nation": "germany",
+    "nodes": [
+      {
+        "name": "Bauzug M",
+        "kind": "platoon",
+        "tier": 4,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Fernschreiber K"
+        ],
+        "next": [
+          "Kräfte sammeln"
+        ],
+        "unknownRefs": [
+          "Kräfte sammeln"
+        ]
+      },
+      {
+        "name": "Die Glorien",
+        "kind": "order",
+        "tier": 7,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Panzerfunker H"
+        ],
+        "next": [
+          "PzD Holstein"
+        ],
+        "unknownRefs": []
+      },
+      {
+        "name": "Fernschreiber K",
+        "kind": "platoon",
+        "tier": 3,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "Bauzug M",
+          "Wespe"
+        ],
+        "unknownRefs": [
+          "Wespe"
+        ]
+      },
+      {
+        "name": "Hetzer",
+        "kind": "vehicle",
+        "tier": 4,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "StuG III",
+          "Hummel"
+        ],
+        "unknownRefs": []
+      },
+      {
+        "name": "Hummel",
+        "kind": "vehicle",
+        "tier": 7,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Hetzer"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "Panzerfunker H",
+        "kind": "platoon",
+        "tier": 5,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "Die Glorien"
+        ],
+        "unknownRefs": []
+      },
+      {
+        "name": "PzD Holstein",
+        "kind": "hq",
+        "tier": 8,
+        "xp": 31180,
+        "credits": null,
+        "prev": [
+          "Die Glorien"
+        ],
+        "next": [
+          "GW Panther",
+          "Maus",
+          "VK 3001 (P)"
+        ],
+        "unknownRefs": [
+          "GW Panther"
+        ]
+      },
+      {
+        "name": "StuG III",
+        "kind": "vehicle",
+        "tier": 5,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Hetzer"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "Zweiter Wind",
+        "kind": "order",
+        "tier": 7,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Bauzug M"
+        ],
+        "next": [],
+        "unknownRefs": []
+      }
+    ]
+  },
+  "PzD Jüterbog": {
+    "branch": "PzD Jüterbog",
+    "nation": "germany",
+    "nodes": [
+      {
+        "name": "Der Zorn",
+        "kind": "order",
+        "tier": 4,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "PzIV",
+          "PzIII/IV"
+        ],
+        "unknownRefs": [
+          "PzIV"
+        ]
+      },
+      {
+        "name": "Luchs",
+        "kind": "vehicle",
+        "tier": 4,
+        "xp": 30600,
+        "credits": null,
+        "prev": [
+          "Sturmpanzer II"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "Marder II",
+        "kind": "vehicle",
+        "tier": 3,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "PzKpfw II"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "PzD Müncheberg",
+        "kind": "hq",
+        "tier": 8,
+        "xp": 39180,
+        "credits": null,
+        "prev": [
+          "Stärke"
+        ],
+        "next": [
+          "Tiger",
+          "Panther",
+          "Ferdinand"
+        ],
+        "unknownRefs": []
+      },
+      {
+        "name": "PzIII/IV",
+        "kind": "vehicle",
+        "tier": 5,
+        "xp": 45300,
+        "credits": null,
+        "prev": [
+          "Der Zorn"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "PzKpfw II",
+        "kind": "vehicle",
+        "tier": 3,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "Marder II",
+          "Sturmpanzer II"
+        ],
+        "unknownRefs": []
+      },
+      {
+        "name": "PzKpfw IV",
+        "kind": "vehicle",
+        "tier": 6,
+        "xp": null,
+        "credits": 79750,
+        "prev": [
+          "Der Zorn"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "Stärke",
+        "kind": "order",
+        "tier": 7,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Flammenwerfer"
+        ],
+        "next": [
+          "PzD Müncheberg"
+        ],
+        "unknownRefs": [
+          "Flammenwerfer"
+        ]
+      },
+      {
+        "name": "Sturmpanzer II",
+        "kind": "vehicle",
+        "tier": 5,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "PzKpfw II"
+        ],
+        "next": [
+          "Luchs"
+        ],
+        "unknownRefs": []
+      }
+    ]
+  },
+  "PzD Müncheberg": {
+    "branch": "PzD Müncheberg",
+    "nation": "germany",
+    "nodes": [
+      {
+        "name": "E-50",
+        "kind": "vehicle",
+        "tier": 9,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Niederlage"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "Ferdinand",
+        "kind": "vehicle",
+        "tier": 8,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "Ru 251",
+          "Niederlage"
+        ],
+        "unknownRefs": []
+      },
+      {
+        "name": "Niederlage",
+        "kind": "order",
+        "tier": 8,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Ferdinand"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "Panther",
+        "kind": "vehicle",
+        "tier": 8,
+        "xp": 25130,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "E-100",
+          "Panther II"
+        ],
+        "unknownRefs": [
+          "E-100",
+          "Panther II"
+        ]
+      },
+      {
+        "name": "Ru 251",
+        "kind": "vehicle",
+        "tier": 8,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Ferdinand"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "Tiger",
+        "kind": "vehicle",
+        "tier": 8,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [],
+        "unknownRefs": []
+      }
+    ]
+  },
+  "PzD Holstein": {
+    "branch": "PzD Holstein",
+    "nation": "germany",
+    "nodes": [
+      {
+        "name": "E-50M",
+        "kind": "vehicle",
+        "tier": 10,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "VK 3001 (P)"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "GW Tiger",
+        "kind": "vehicle",
+        "tier": 9,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "GW Panther"
+        ],
+        "next": [
+          "JagdTiger"
+        ],
+        "unknownRefs": [
+          "GW Panther"
+        ]
+      },
+      {
+        "name": "JagdTiger",
+        "kind": "vehicle",
+        "tier": 9,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "GW Tiger"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "Maus",
+        "kind": "vehicle",
+        "tier": 10,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "Tiger (P)",
+        "kind": "vehicle",
+        "tier": 8,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "GW Panther"
+        ],
+        "next": [],
+        "unknownRefs": [
+          "GW Panther"
+        ]
+      },
+      {
+        "name": "VK 3001 (P)",
+        "kind": "vehicle",
+        "tier": 7,
+        "xp": 9420,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "Militärmarsch",
+          "E-50M"
+        ],
+        "unknownRefs": [
+          "Militärmarsch"
+        ]
+      }
+    ]
+  },
+  "PzD Clausewitz": {
+    "branch": "PzD Clausewitz",
+    "nation": "germany",
+    "nodes": [
+      {
+        "name": "Feldmediziner",
+        "kind": "platoon",
+        "tier": 6,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Die Besten"
+        ],
+        "next": [],
+        "unknownRefs": [
+          "Die Besten"
+        ]
+      },
+      {
+        "name": "In den Staub",
+        "kind": "order",
+        "tier": 6,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Grille"
+        ],
+        "next": [],
+        "unknownRefs": [
+          "Grille"
+        ]
+      },
+      {
+        "name": "Ingenieure Sch",
+        "kind": "platoon",
+        "tier": 4,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Nachrichten 1. PD"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "JagdPz IV",
+        "kind": "vehicle",
+        "tier": 6,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Die Besten"
+        ],
+        "next": [],
+        "unknownRefs": [
+          "Die Besten"
+        ]
+      },
+      {
+        "name": "Nachrichten 1. PD",
+        "kind": "platoon",
+        "tier": 2,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "Grille",
+          "Ingenieure Sch"
+        ],
+        "unknownRefs": [
+          "Grille"
+        ]
+      },
+      {
+        "name": "Ungeschlagen",
+        "kind": "order",
+        "tier": 7,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Hilfe"
+        ],
+        "next": [
+          "PzD Schlesien"
+        ],
+        "unknownRefs": [
+          "Hilfe",
+          "PzD Schlesien"
+        ]
+      }
+    ]
+  },
+  "PzD Schlesien": {
+    "branch": "PzD Schlesien",
+    "nation": "germany",
+    "nodes": [
+      {
+        "name": "GW Typ E",
+        "kind": "vehicle",
+        "tier": 10,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Tiger II"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "JagdPanther",
+        "kind": "vehicle",
+        "tier": 7,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "JagdPzE100"
+        ],
+        "unknownRefs": [
+          "JagdPzE100"
+        ]
+      },
+      {
+        "name": "Nachschubzug",
+        "kind": "platoon",
+        "tier": 9,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "Tiger II"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "Tiger II",
+        "kind": "vehicle",
+        "tier": 9,
+        "xp": null,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "GW Type E",
+          "Nachschubzug"
+        ],
+        "unknownRefs": [
+          "GW Type E"
+        ]
+      },
+      {
+        "name": "VK 3002 (DB)",
+        "kind": "vehicle",
+        "tier": 8,
+        "xp": 25130,
+        "credits": null,
+        "prev": [],
+        "next": [
+          "Die letzte Grenze",
+          "Indien Pz"
+        ],
+        "unknownRefs": [
+          "Die letzte Grenze",
+          "Indien Pz"
+        ]
+      }
+    ]
+  },
+  "3rd Airborne": {
+    "branch": "3rd Airborne",
+    "nation": "usa",
+    "nodes": [
+      {
+        "name": "M3 Lee",
+        "kind": "vehicle",
+        "tier": 6,
+        "xp": 45300,
+        "credits": 159500,
+        "prev": [
+          "M7 Priest"
+        ],
+        "next": [
+          "M44"
+        ],
+        "unknownRefs": [
+          "M7 Priest"
+        ]
+      },
+      {
+        "name": "M44",
+        "kind": "vehicle",
+        "tier": 7,
+        "xp": 9420,
+        "credits": 132750,
+        "prev": [
+          "M3 Lee"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "Telephonists EF",
+        "kind": "platoon",
+        "tier": 2,
+        "xp": 380,
+        "credits": 3250,
+        "prev": [],
+        "next": [
+          "Snipers 82",
+          "Vengeance"
+        ],
+        "unknownRefs": [
+          "Snipers 82",
+          "Vengeance"
+        ]
+      },
+      {
+        "name": "Wolverine",
+        "kind": "vehicle",
+        "tier": 5,
+        "xp": 3400,
+        "credits": 48000,
+        "prev": [],
+        "next": [
+          "Airborne Assault",
+          "Airdrop"
+        ],
+        "unknownRefs": [
+          "Airborne Assault",
+          "Airdrop"
+        ]
+      }
+    ]
+  },
+  "7th Armored": {
+    "branch": "7th Armored",
+    "nation": "usa",
+    "nodes": [
+      {
+        "name": "M48 Patton",
+        "kind": "vehicle",
+        "tier": 10,
+        "xp": null,
+        "credits": null,
+        "prev": [
+          "M4A3E8"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "M4A3E8",
+        "kind": "vehicle",
+        "tier": 7,
+        "xp": 9420,
+        "credits": 132750,
+        "prev": [],
+        "next": [
+          "Pershing"
+        ],
+        "unknownRefs": []
+      },
+      {
+        "name": "Pershing",
+        "kind": "vehicle",
+        "tier": 9,
+        "xp": 41830,
+        "credits": 616250,
+        "prev": [
+          "M4A3E8"
+        ],
+        "next": [],
+        "unknownRefs": []
+      },
+      {
+        "name": "T32",
+        "kind": "vehicle",
+        "tier": 9,
+        "xp": 209200,
+        "credits": 1232700,
+        "prev": [
+          "M12"
+        ],
+        "next": [],
+        "unknownRefs": [
+          "M12"
+        ]
+      }
+    ]
+  }
+}

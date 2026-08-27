@@ -1,0 +1,150 @@
+{
+  "fetchedAt": "2026-08-22T18:10:40.697Z",
+  "wiki": [
+    {
+      "page": "Руководство_по_игре_(WoTG)",
+      "timestamp": "20180306035321",
+      "chars": 1858,
+      "snapshot": "https://web.archive.org/web/20180306035321/https://wiki.wargaming.net/ru/Руководство_по_игре_(WoTG)",
+      "status": "ok"
+    },
+    {
+      "page": "Свойства_карт_(WoTG)",
+      "timestamp": "20180326231827",
+      "chars": 3119,
+      "snapshot": "https://web.archive.org/web/20180326231827/https://wiki.wargaming.net/ru/Свойства_карт_(WoTG)",
+      "status": "ok"
+    },
+    {
+      "page": "Премиумные_карты_(WoTG)",
+      "timestamp": "20190420142446",
+      "chars": 1922,
+      "snapshot": "https://web.archive.org/web/20190420142446/https://wiki.wargaming.net/ru/Премиумные_карты_(WoTG)",
+      "status": "ok"
+    },
+    {
+      "page": "Список_обновлений_(WoTG)",
+      "timestamp": "20180716202120",
+      "chars": 6945,
+      "snapshot": "https://web.archive.org/web/20180716202120/https://wiki.wargaming.net/ru/Список_обновлений_(WoTG)",
+      "status": "ok"
+    },
+    {
+      "page": "Обновление_0.6.0_(WoTG)",
+      "timestamp": "20180823030304",
+      "chars": 5428,
+      "snapshot": "https://web.archive.org/web/20180823030304/https://wiki.wargaming.net/ru/Обновление_0.6.0_(WoTG)",
+      "status": "ok"
+    },
+    {
+      "page": "Обновление_0.6.2_(WoTG)",
+      "timestamp": "20190402080000",
+      "chars": 6911,
+      "snapshot": "https://web.archive.org/web/20190402080000/https://wiki.wargaming.net/ru/Обновление_0.6.2_(WoTG)",
+      "status": "ok"
+    },
+    {
+      "page": "Обновление_0.6.4_(WoTG)",
+      "timestamp": "20190523034934",
+      "chars": 4876,
+      "snapshot": "https://web.archive.org/web/20190523034934/https://wiki.wargaming.net/ru/Обновление_0.6.4_(WoTG)",
+      "status": "ok"
+    },
+    {
+      "page": "Дерево_исследований_(WoTG)",
+      "status": "нет снимков"
+    },
+    {
+      "page": "Бой_(WoTG)",
+      "status": "нет снимков"
+    },
+    {
+      "page": "Ресурсы_(WoTG)",
+      "status": "нет снимков"
+    },
+    {
+      "page": "Колода_(WoTG)",
+      "status": "нет снимков"
+    }
+  ],
+  "portal": [
+    {
+      "url": "http://wotgenerals.com/en/content/guide/game_rules",
+      "timestamp": "20260215081406",
+      "chars": 1345,
+      "status": "ok"
+    },
+    {
+      "url": "http://wotgenerals.com/en/content/guide/game_rules/battle_rules",
+      "timestamp": "20160830060259",
+      "chars": 5382,
+      "status": "ok"
+    },
+    {
+      "url": "http://wotgenerals.com/en/content/guide/game_rules/deck_and_cards",
+      "timestamp": "20160802005143",
+      "chars": 1734,
+      "status": "ok"
+    },
+    {
+      "url": "http://wotgenerals.com/en/content/guide/cards",
+      "timestamp": "20160728201605",
+      "chars": 1601,
+      "status": "ok"
+    },
+    {
+      "url": "http://wotgenerals.com/en/content/guide/cards/types_of_cards",
+      "timestamp": "20260215083429",
+      "chars": 4217,
+      "status": "ok"
+    },
+    {
+      "url": "http://wotgenerals.com/en/content/guide/cards/attributes_of_cards",
+      "timestamp": "20160830045600",
+      "chars": 3479,
+      "status": "ok"
+    },
+    {
+      "url": "http://wotgenerals.com/en/content/guide/in_battle",
+      "timestamp": "20160819124719",
+      "chars": 1623,
+      "status": "ok"
+    },
+    {
+      "url": "http://wotgenerals.com/en/content/guide/newcomers-guide",
+      "timestamp": "20260211174236",
+      "chars": 1260,
+      "status": "ok"
+    },
+    {
+      "url": "http://wotgenerals.com/en/content/guide/getting_ready_for_battle",
+      "timestamp": "20160803183937",
+      "chars": 1652,
+      "status": "ok"
+    },
+    {
+      "url": "http://wotgenerals.com/en/content/guide/getting_ready_for_battle/editing_a_deck",
+      "timestamp": "20260211181349",
+      "chars": 4982,
+      "status": "ok"
+    },
+    {
+      "url": "http://wotgenerals.com/en/content/guide/getting_ready_for_battle/researching_cards",
+      "timestamp": "20160809021202",
+      "chars": 2771,
+      "status": "ok"
+    },
+    {
+      "url": "http://wotgenerals.com/en/content/guide/premium_perks",
+      "timestamp": "20160810193617",
+      "chars": 1563,
+      "status": "ok"
+    },
+    {
+      "url": "http://wotgenerals.com/en/content/about_game",
+      "timestamp": "20161218030233",
+      "chars": 2236,
+      "status": "ok"
+    }
+  ]
+}

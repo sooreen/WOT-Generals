@@ -1,0 +1,22 @@
+{
+  "parsedAt": "2026-08-22T17:55:44.196Z",
+  "totalPages": 240,
+  "redirects": 86,
+  "parsed": 154,
+  "failures": [],
+  "conflicts": [
+    {
+      "title": "Pz35t",
+      "field": "nation",
+      "byImage": "usa",
+      "byDescription": "germany",
+      "byBranch": "germany",
+      "resolved": "germany"
+    }
+  ],
+  "missingFields": {},
+  "unresolvedClass": [],
+  "unresolvedPlatoonSpec": [
+    "Volunteers 29"
+  ]
+}

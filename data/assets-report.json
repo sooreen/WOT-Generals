@@ -1,0 +1,944 @@
+{
+  "fetchedAt": "2026-08-22T18:06:35.886Z",
+  "cards": [
+    {
+      "card": "11th Squadron",
+      "file": "Wotg_anno_uh_11mechanizedreconnaissancesquadron.png",
+      "bytes": 504980
+    },
+    {
+      "card": "13-я дивизия",
+      "file": "Wotg_anno_sh_13thdivision.png",
+      "bytes": 521265
+    },
+    {
+      "card": "21-й танковый",
+      "file": "Wotg_anno_sh_21tankoviybatallion.png",
+      "bytes": 504466
+    },
+    {
+      "card": "2nd Armored",
+      "file": "Wotg_anno_uh_2armoredbattalion.png",
+      "bytes": 453587
+    },
+    {
+      "card": "3-я дивизия",
+      "file": "Wotg_anno_sh_3yakrasnoznamennayadivisiya.png",
+      "bytes": 515690
+    },
+    {
+      "card": "3rd Airborne",
+      "file": "Wotg_anno_uh_3airbornetankbattalion.png",
+      "bytes": 498483
+    },
+    {
+      "card": "4-я дивизия",
+      "file": "Wotg_anno_sh_4kantemirovskayadivisiya.png",
+      "bytes": 506769
+    },
+    {
+      "card": "41-я танковая",
+      "file": "Wotg_anno_sh_41ayatankovayadivisiya.png",
+      "bytes": 481116
+    },
+    {
+      "card": "501 AD",
+      "file": "Wotg_anno_up_crewof501airdefensebattalion.png",
+      "bytes": 416552
+    },
+    {
+      "card": "60-я танковая",
+      "file": "Wotg_anno_sh_60ayatankovayadivisiya.png",
+      "bytes": 439651
+    },
+    {
+      "card": "7-й танковый",
+      "file": "Wotg_anno_sh_7tankoviikorpus.png",
+      "bytes": 500079
+    },
+    {
+      "card": "7th Armored",
+      "file": "Wotg_anno_uh_7tharmoreddivision.png",
+      "bytes": 350097
+    },
+    {
+      "card": "А-32",
+      "file": "Wotg_anno_sv_a32.png",
+      "bytes": 383988
+    },
+    {
+      "card": "Артиллеристы 17",
+      "file": "Wotg_anno_sp_artilleristy17bobruiskoydivizii.png",
+      "bytes": 427549
+    },
+    {
+      "card": "АТ-1",
+      "file": "Wotg_anno_sv_at1.png",
+      "bytes": 371781
+    },
+    {
+      "card": "Без пощады",
+      "file": "Wotg_anno_so_beynasmert.png",
+      "bytes": 421488
+    },
+    {
+      "card": "БТ-2",
+      "file": "Wotg_anno_sv_bt2.png",
+      "bytes": 382305
+    },
+    {
+      "card": "БТ-СВ",
+      "file": "Wotg_anno_sv_btsv.png",
+      "bytes": 394323
+    },
+    {
+      "card": "Валентайн II",
+      "file": "Wotg_anno_sv_valentine2.png",
+      "bytes": 371746
+    },
+    {
+      "card": "ИС-4",
+      "file": "Wotg_anno_sv_is_4.png",
+      "bytes": 391505
+    },
+    {
+      "card": "ИС-7",
+      "file": "Wotg_anno_sv_is7.png",
+      "bytes": 447434
+    },
+    {
+      "card": "ИСУ-152",
+      "file": "Wotg_anno_sv_isu152.png",
+      "bytes": 381113
+    },
+    {
+      "card": "Криминалисты",
+      "file": "Wotg_anno_sp_voenniyecriminalisty.png",
+      "bytes": 414893
+    },
+    {
+      "card": "МС-1",
+      "file": "Wotg_anno_sv_ms1.png",
+      "bytes": 370248
+    },
+    {
+      "card": "Объект 261",
+      "file": "Wotg_anno_sv_ob261.png",
+      "bytes": 385745
+    },
+    {
+      "card": "Объект 268",
+      "file": "Wotg_anno_sv_ob268.png",
+      "bytes": 403068
+    },
+    {
+      "card": "Объект 704",
+      "file": "Wotg_anno_sv_ob704.png",
+      "bytes": 431131
+    },
+    {
+      "card": "С-51",
+      "file": "Wotg_anno_sv_s51.png",
+      "bytes": 379361
+    },
+    {
+      "card": "Спецгруппа",
+      "file": "Wotg_anno_sh_specgruppa.png",
+      "bytes": 458448
+    },
+    {
+      "card": "СУ-100",
+      "file": "Wotg_anno_sv_su100.png",
+      "bytes": 375621
+    },
+    {
+      "card": "СУ-101",
+      "file": "Wotg_anno_sv_su_101.png",
+      "bytes": 447746
+    },
+    {
+      "card": "СУ-122-44",
+      "file": "Wotg_anno_sv_su12244.png",
+      "bytes": 400253
+    },
+    {
+      "card": "СУ-122-54",
+      "file": "Wotg_anno_sv_su_122_54.png",
+      "bytes": 391022
+    },
+    {
+      "card": "СУ-14",
+      "file": "Wotg_anno_sv_su14.png",
+      "bytes": 365514
+    },
+    {
+      "card": "СУ-76",
+      "file": "Wotg_anno_sv_su76.png",
+      "bytes": 368925
+    },
+    {
+      "card": "СУ-8",
+      "file": "Wotg_anno_sv_su8.png",
+      "bytes": 365646
+    },
+    {
+      "card": "СУ-85",
+      "file": "Wotg_anno_sv_su85.png",
+      "bytes": 381774
+    },
+    {
+      "card": "Т-24",
+      "file": "Wotg_anno_sv_t24.png",
+      "bytes": 360154
+    },
+    {
+      "card": "Т-26",
+      "file": "Wotg_anno_sv_t26.png",
+      "bytes": 373950
+    },
+    {
+      "card": "Т-28",
+      "file": "Wotg_anno_sv_t28.png",
+      "bytes": 360331
+    },
+    {
+      "card": "Т-34",
+      "file": "Wotg_anno_sv_t34.png",
+      "bytes": 369435
+    },
+    {
+      "card": "Т-37А",
+      "file": "Wotg_anno_sv_t37a.png",
+      "bytes": 425346
+    },
+    {
+      "card": "Т-44",
+      "file": "Wotg_anno_sv_t44.png",
+      "bytes": 427424
+    },
+    {
+      "card": "Т-46",
+      "file": "Wotg_anno_sv_t46.png",
+      "bytes": 390444
+    },
+    {
+      "card": "Т-54",
+      "file": "Wotg_anno_sv_t54.png",
+      "bytes": 377579
+    },
+    {
+      "card": "Т-80",
+      "file": "Wotg_anno_sv_t80.png",
+      "bytes": 435350
+    },
+    {
+      "card": "Т25 AT",
+      "file": "Wotg_anno_uv_t_25_at.png",
+      "bytes": 368780
+    },
+    {
+      "card": "Т28",
+      "file": "Wotg_anno_uv_t_28.png",
+      "bytes": 401893
+    },
+    {
+      "card": "Т82",
+      "file": "Wotg_anno_uv_t82.png",
+      "bytes": 418024
+    },
+    {
+      "card": "Тетрарх",
+      "file": "Wotg_anno_sv_mk7tetrarch.png",
+      "bytes": 392572
+    },
+    {
+      "card": "Учебная часть",
+      "file": "Wotg_anno_sh_uchebnayachast.png",
+      "bytes": 512208
+    },
+    {
+      "card": "Учебный танк",
+      "file": "Wotg_anno_uv_uchebniy_tank.png",
+      "bytes": 328924
+    },
+    {
+      "card": "Учебный танк",
+      "file": "Wotg_anno_sv_trainingtank.png",
+      "bytes": 355171
+    },
+    {
+      "card": "A7V",
+      "file": "Wotg_anno_gv_a7v.png",
+      "bytes": 393855
+    },
+    {
+      "card": "Air Supremacy",
+      "file": "Wotg_anno_uo_toolittletoolate.png",
+      "bytes": 398920
+    },
+    {
+      "card": "Bauzug M",
+      "file": "Wotg_anno_gp_bauzugderpdmuncheberg.png",
+      "bytes": 375889
+    },
+    {
+      "card": "Be the Hero",
+      "file": "Wotg_anno_uo_freedomshallprevail.png",
+      "bytes": 412239
+    },
+    {
+      "card": "Bison",
+      "file": "Wotg_anno_gv_sturmpanzerIbison.png",
+      "bytes": 415960
+    },
+    {
+      "card": "Der Zorn",
+      "file": "Wotg_anno_go_volkssturm.png",
+      "bytes": 426814
+    },
+    {
+      "card": "Die Glorien",
+      "file": "Wotg_anno_go_deutchlandbefreiung.png",
+      "bytes": 387670
+    },
+    {
+      "card": "Double Efforts",
+      "file": "Wotg_anno_uo_togetherwewin.png",
+      "bytes": 380864
+    },
+    {
+      "card": "E-50",
+      "file": "Wotg_anno_gv_e_50.png",
+      "bytes": 401654
+    },
+    {
+      "card": "E-50M",
+      "file": "Wotg_anno_gv_e_50_m.png",
+      "bytes": 404386
+    },
+    {
+      "card": "E25",
+      "file": "Wotg_anno_gv_e25.png",
+      "bytes": 380990
+    },
+    {
+      "card": "Feldmediziner",
+      "file": "Wotg_anno_gp_feldmedizinerder14pd.png",
+      "bytes": 396368
+    },
+    {
+      "card": "Ferdinand",
+      "file": "Wotg_anno_gv_ferdinand.png",
+      "bytes": 394195
+    },
+    {
+      "card": "Fernschreiber K",
+      "file": "Wotg_anno_gp_fernschreiberderpdkurmark.png",
+      "bytes": 422436
+    },
+    {
+      "card": "Gr. Dabendorf",
+      "file": "Wotg_anno_gh_grunschnabel.png",
+      "bytes": 454674
+    },
+    {
+      "card": "GW Tiger",
+      "file": "Wotg_anno_gv_gwtiger.png",
+      "bytes": 376465
+    },
+    {
+      "card": "GW Typ E",
+      "file": "Wotg_anno_gv_gwtypee.png",
+      "bytes": 368273
+    },
+    {
+      "card": "Heart of the Enemy",
+      "file": "Wotg_anno_uo_crushprussian.png",
+      "bytes": 407444
+    },
+    {
+      "card": "Hetzer",
+      "file": "Wotg_anno_gv_hetzer.png",
+      "bytes": 364889
+    },
+    {
+      "card": "Hummel",
+      "file": "Wotg_anno_gv_hummel.png",
+      "bytes": 367685
+    },
+    {
+      "card": "II. Armeekorps",
+      "file": "Wotg_anno_gh_2armeekorps.png",
+      "bytes": 524609
+    },
+    {
+      "card": "In den Staub",
+      "file": "Wotg_anno_go_inderstaub.png",
+      "bytes": 423379
+    },
+    {
+      "card": "Ingenieure Sch",
+      "file": "Wotg_anno_gp_divisiondingenieureschlesien.png",
+      "bytes": 412853
+    },
+    {
+      "card": "Jackson",
+      "file": "Wotg_anno_uv_m36slugger.png",
+      "bytes": 395259
+    },
+    {
+      "card": "JagdPanther",
+      "file": "Wotg_anno_gv_jagdpanther.png",
+      "bytes": 387535
+    },
+    {
+      "card": "JagdPz IV",
+      "file": "Wotg_anno_gv_jagdpziv.png",
+      "bytes": 385722
+    },
+    {
+      "card": "JagdTiger",
+      "file": "Wotg_anno_gv_jagdtiger.png",
+      "bytes": 388581
+    },
+    {
+      "card": "JagdTiger 8.8",
+      "file": "Wotg_anno_gv_88pak43jagdtiger.png",
+      "bytes": 370802
+    },
+    {
+      "card": "Leichttraktor",
+      "file": "Wotg_anno_gv_leichttraktor.png",
+      "bytes": 369093
+    },
+    {
+      "card": "Liberty",
+      "file": "Wotg_anno_uv_mark7liberty.png",
+      "bytes": 432626
+    },
+    {
+      "card": "Löwe",
+      "file": "Wotg_anno_gv_lowe.png",
+      "bytes": 402299
+    },
+    {
+      "card": "Luchs",
+      "file": "Wotg_anno_gv_pzkpfwIIluchs.png",
+      "bytes": 379655
+    },
+    {
+      "card": "M103",
+      "file": "Wotg_anno_uv_m_103.png",
+      "bytes": 401969
+    },
+    {
+      "card": "M2 LT",
+      "file": "Wotg_anno_uv_m2lt.png",
+      "bytes": 418786
+    },
+    {
+      "card": "M2 MT",
+      "file": "Wotg_anno_uv_m2mediumtank.png",
+      "bytes": 375278
+    },
+    {
+      "card": "M3 Lee",
+      "file": "Wotg_anno_uv_m3lee.png",
+      "bytes": 389265
+    },
+    {
+      "card": "M3 Stuart",
+      "file": "Wotg_anno_uv_m3stuart.png",
+      "bytes": 434902
+    },
+    {
+      "card": "M40/M43",
+      "file": "Wotg_anno_uv_m40slashm43.png",
+      "bytes": 433365
+    },
+    {
+      "card": "M41",
+      "file": "Wotg_anno_uv_m41.png",
+      "bytes": 396538
+    },
+    {
+      "card": "M44",
+      "file": "Wotg_anno_uv_m44.png",
+      "bytes": 379924
+    },
+    {
+      "card": "M46 Patton",
+      "file": "Wotg_anno_uv_m46patton.png",
+      "bytes": 400289
+    },
+    {
+      "card": "M48 Patton",
+      "file": "Wotg_anno_uv_m_48_patton.png",
+      "bytes": 416451
+    },
+    {
+      "card": "M4A2E4",
+      "file": "Wotg_anno_uv_m4a2e4.png",
+      "bytes": 448764
+    },
+    {
+      "card": "M4A3E8",
+      "file": "Wotg_anno_uv_m4a3e8sherman.png",
+      "bytes": 440968
+    },
+    {
+      "card": "M5 Stuart",
+      "file": "Wotg_anno_uv_m5stuart.png",
+      "bytes": 412593
+    },
+    {
+      "card": "M6",
+      "file": "Wotg_anno_uv_m6.png",
+      "bytes": 430348
+    },
+    {
+      "card": "M6A2E1",
+      "file": "Wotg_anno_uv_m6a2e1.png",
+      "bytes": 410283
+    },
+    {
+      "card": "Marder II",
+      "file": "Wotg_anno_gv_marderII.png",
+      "bytes": 366413
+    },
+    {
+      "card": "Maus",
+      "file": "Wotg_anno_gv_maus.png",
+      "bytes": 388101
+    },
+    {
+      "card": "Mortars 17",
+      "file": "Wotg_anno_up_mortarsof17division.png",
+      "bytes": 441129
+    },
+    {
+      "card": "Nachrichten 1. PD",
+      "file": "Wotg_anno_gp_nachaichtrnbrigadeder1pd.png",
+      "bytes": 410720
+    },
+    {
+      "card": "Nachschubzug",
+      "file": "Wotg_anno_gp_nachschubzugder9pd.png",
+      "bytes": 426164
+    },
+    {
+      "card": "Niederlage",
+      "file": "Wotg_anno_go_vaterlandodertod.png",
+      "bytes": 424304
+    },
+    {
+      "card": "Panther",
+      "file": "Wotg_anno_gv_pzkpfwVpanther.png",
+      "bytes": 376752
+    },
+    {
+      "card": "Panzerfunker H",
+      "file": "Wotg_anno_gp_panzertunkerderpdholstein.png",
+      "bytes": 425504
+    },
+    {
+      "card": "Panzerjäger I",
+      "file": "Wotg_anno_gv_panzerjagerI.png",
+      "bytes": 364243
+    },
+    {
+      "card": "Pershing",
+      "file": "Wotg_anno_uv_m26pershing.png",
+      "bytes": 427975
+    },
+    {
+      "card": "Pz S35",
+      "file": "Wotg_anno_gv_pzkpfws35739f.png",
+      "bytes": 392943
+    },
+    {
+      "card": "Pz35(t)",
+      "file": "Wotg_anno_gv_pzkpfw35(t).png",
+      "bytes": 368141
+    },
+    {
+      "card": "Pz38(t)",
+      "file": "Wotg_anno_gv_pzkpfw38(t).png",
+      "bytes": 378038
+    },
+    {
+      "card": "Pz38H (f)",
+      "file": "Wotg_anno_gv_pzkpfw38h735f.png",
+      "bytes": 359339
+    },
+    {
+      "card": "PzD Holstein",
+      "file": "Wotg_anno_gh_divisionholstein.png",
+      "bytes": 458013
+    },
+    {
+      "card": "PzD Kurmark",
+      "file": "Wotg_anno_gh_divisionkurmark.png",
+      "bytes": 483291
+    },
+    {
+      "card": "PzD Müncheberg",
+      "file": "Wotg_anno_gh_pzgrmuncheberg.png",
+      "bytes": 465853
+    },
+    {
+      "card": "PzIII/IV",
+      "file": "Wotg_anno_gv_pzkpfwIIIslashIV.png",
+      "bytes": 388412
+    },
+    {
+      "card": "PzKpfw II",
+      "file": "Wotg_anno_gv_pzkpfwII.png",
+      "bytes": 375339
+    },
+    {
+      "card": "PzKpfw IV",
+      "file": "Wotg_anno_gv_pzkpfwIV.png",
+      "bytes": 390620
+    },
+    {
+      "card": "Ru 251",
+      "file": "Wotg_anno_gv_ru_251.png",
+      "bytes": 381095
+    },
+    {
+      "card": "Späher M",
+      "file": "Wotg_anno_gp_auskundschaftersderpdmuncheberg.png",
+      "bytes": 384867
+    },
+    {
+      "card": "Stärke",
+      "file": "Wotg_anno_go_rauftdeutcheware.png",
+      "bytes": 397811
+    },
+    {
+      "card": "StuG III",
+      "file": "Wotg_anno_gv_stug3.png",
+      "bytes": 383702
+    },
+    {
+      "card": "Sturmpanzer II",
+      "file": "Wotg_anno_gv_sturmpanzerII.png",
+      "bytes": 379648
+    },
+    {
+      "card": "T-15",
+      "file": "Wotg_anno_gv_t15.png",
+      "bytes": 383721
+    },
+    {
+      "card": "T-21",
+      "file": "Wotg_anno_gv_t21.png",
+      "bytes": 363315
+    },
+    {
+      "card": "T-62А",
+      "file": "Wotg_anno_sv_t_62_a.png",
+      "bytes": 392960
+    },
+    {
+      "card": "T1 LT",
+      "file": "Wotg_anno_uv_t1lt.png",
+      "bytes": 418684
+    },
+    {
+      "card": "T110E5",
+      "file": "Wotg_anno_uv_t110e5.png",
+      "bytes": 447751
+    },
+    {
+      "card": "T18",
+      "file": "Wotg_anno_uv_t18.png",
+      "bytes": 417050
+    },
+    {
+      "card": "T20",
+      "file": "Wotg_anno_uv_t_20.png",
+      "bytes": 372093
+    },
+    {
+      "card": "T25/2",
+      "file": "Wotg_anno_uv_t25slash2.png",
+      "bytes": 381405
+    },
+    {
+      "card": "T30",
+      "file": "Wotg_anno_uv_t30.png",
+      "bytes": 429864
+    },
+    {
+      "card": "T32",
+      "file": "Wotg_anno_uv_t32.png",
+      "bytes": 384806
+    },
+    {
+      "card": "T34",
+      "file": "Wotg_anno_uv_t34.png",
+      "bytes": 381762
+    },
+    {
+      "card": "T40",
+      "file": "Wotg_anno_uv_t40.png",
+      "bytes": 391708
+    },
+    {
+      "card": "T57",
+      "file": "Wotg_anno_uv_t57.png",
+      "bytes": 408195
+    },
+    {
+      "card": "T6",
+      "file": "Wotg_anno_uv_t6.png",
+      "bytes": 408422
+    },
+    {
+      "card": "Telephonists EF",
+      "file": "Wotg_anno_up_telephonistsofexpeditionaryforces.png",
+      "bytes": 429834
+    },
+    {
+      "card": "The Key",
+      "file": "Wotg_anno_uo_civiliandefence.png",
+      "bytes": 396126
+    },
+    {
+      "card": "Tiger",
+      "file": "Wotg_anno_gv_pzkpfwVItiger.png",
+      "bytes": 381767
+    },
+    {
+      "card": "Tiger (P)",
+      "file": "Wotg_anno_gv_tiger_p.png",
+      "bytes": 389124
+    },
+    {
+      "card": "Tiger II",
+      "file": "Wotg_anno_gv_pzkpfwVIbtigerII.png",
+      "bytes": 393912
+    },
+    {
+      "card": "Training Camp",
+      "file": "Wotg_anno_uh_trainingcamp.png",
+      "bytes": 513423
+    },
+    {
+      "card": "Trainingslager",
+      "file": "Wotg_anno_gh_trainingslager.png",
+      "bytes": 506462
+    },
+    {
+      "card": "Ungeschlagen",
+      "file": "Wotg_anno_go_politruklzhet.png",
+      "bytes": 404233
+    },
+    {
+      "card": "VK 3001 (P)",
+      "file": "Wotg_anno_gv_vk3001(p).png",
+      "bytes": 385489
+    },
+    {
+      "card": "VK 3002 (DB)",
+      "file": "Wotg_anno_gv_vk3002(db).png",
+      "bytes": 394875
+    },
+    {
+      "card": "Volunteers 29",
+      "file": "Wotg_anno_up_volunteersof29infantryregiment.png",
+      "bytes": 415707
+    },
+    {
+      "card": "Wir kommen",
+      "file": "Wotg_anno_go_dersiegwirdunsersein.png",
+      "bytes": 408807
+    },
+    {
+      "card": "Wolverine",
+      "file": "Wotg_anno_uv_m10.png",
+      "bytes": 401332
+    },
+    {
+      "card": "Zweiter Wind",
+      "file": "Wotg_anno_go_arbeitedufuerdensieg.png",
+      "bytes": 379909
+    }
+  ],
+  "ui": [
+    {
+      "file": "Главная_Взвод_WOTG.jpeg",
+      "bytes": 70747
+    },
+    {
+      "file": "Взводы_wotg.png",
+      "bytes": 655494
+    },
+    {
+      "file": "Разведчики.png",
+      "bytes": 4210
+    },
+    {
+      "file": "Связисты.png",
+      "bytes": 3799
+    },
+    {
+      "file": "PLT_ico.png",
+      "bytes": 4210
+    },
+    {
+      "file": "Медики.png",
+      "bytes": 4669
+    },
+    {
+      "file": "Инженеры_wotg.png",
+      "bytes": 3985
+    },
+    {
+      "file": "Атакующий_взвод.png",
+      "bytes": 9775
+    },
+    {
+      "file": "Защитный_взвод.png",
+      "bytes": 8360
+    },
+    {
+      "file": "Артиллеристы.png",
+      "bytes": 3821
+    },
+    {
+      "file": "News_preview_100_1_2.jpg",
+      "bytes": 3884
+    },
+    {
+      "file": "Главная_Приказ_WOTG.jpeg",
+      "bytes": 82205
+    },
+    {
+      "file": "Приказы_wotg.png",
+      "bytes": 616215
+    },
+    {
+      "file": "Wotg_anno_go_tagderwehrmacht.png",
+      "bytes": 401703
+    },
+    {
+      "file": "Wotg_anno_sh_uchebnayachast.png",
+      "bytes": 512208
+    },
+    {
+      "file": "Учебная_часть_(40).jpeg",
+      "bytes": 167588
+    },
+    {
+      "file": "Trainingslager_(40).jpeg",
+      "bytes": 194383
+    },
+    {
+      "file": "Training_Camp_(40).jpeg",
+      "bytes": 166387
+    },
+    {
+      "file": "Типы_карт.png",
+      "bytes": 111618
+    },
+    {
+      "file": "Техника_wotg.png",
+      "bytes": 682001
+    },
+    {
+      "file": "LT_ico.png",
+      "bytes": 3529
+    },
+    {
+      "file": "MT_ico.png",
+      "bytes": 3646
+    },
+    {
+      "file": "HT_ico.png",
+      "bytes": 3829
+    },
+    {
+      "file": "ATSPG_ico.png",
+      "bytes": 3627
+    },
+    {
+      "file": "SPG_ico.png",
+      "bytes": 3725
+    },
+    {
+      "file": "Главная_штаб_wotg.jpeg",
+      "bytes": 42763
+    },
+    {
+      "file": "Shtab_wot_generals.png",
+      "bytes": 829989
+    },
+    {
+      "file": "Огневая_мощь_wotg.png",
+      "bytes": 8532
+    },
+    {
+      "file": "Прочность_wotg.png",
+      "bytes": 7945
+    },
+    {
+      "file": "Ресурсы_wotg.png",
+      "bytes": 7579
+    },
+    {
+      "file": "Elite_card.png",
+      "bytes": 448600
+    }
+  ],
+  "failed": [
+    {
+      "kind": "card",
+      "name": "Pz35(t)",
+      "file": "Wotg_anno_uv_pz35t.png",
+      "reason": 404
+    },
+    {
+      "kind": "ui",
+      "file": "Wotg_anno_uo_avenge.png",
+      "reason": 404
+    },
+    {
+      "kind": "ui",
+      "file": "Wotg_anno_so_boltun.png",
+      "reason": 404
+    },
+    {
+      "kind": "ui",
+      "file": "Wotg_anno_uv_trainingslager.png",
+      "reason": 404
+    },
+    {
+      "kind": "ui",
+      "file": "Wotg_anno_uh_training_camp.png",
+      "reason": 404
+    },
+    {
+      "kind": "ui",
+      "file": "Wotg_anno_sv_t_24.png",
+      "reason": 404
+    },
+    {
+      "kind": "ui",
+      "file": "Wotg_anno_sv_bt_cv.png",
+      "reason": 404
+    },
+    {
+      "kind": "ui",
+      "file": "Wotg anno {{{Картинка}}}.png",
+      "reason": 404
+    },
+    {
+      "kind": "ui",
+      "file": "Wotg_anno_uh_4th_armored.png",
+      "reason": 404
+    }
+  ]
+}

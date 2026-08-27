@@ -1,0 +1,441 @@
+-->
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Battle Rules | World of Tanks Generals 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ Services 
+ Forum 
+ Wiki 
+ Support 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Log in 
+ 
+
+ 
+ or create account 
+ 
+ 
+
+ 
+ My Profile 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ Личный кабинет 
+ 
+
+ 
+ Premium Shop 
+ 
+
+ 
+
+ 
+ 
+ Log out 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ -->
+ 
+ 
+ 
+ World of Tanks Generals 
+ 
+
+ 
+ 
+ 
+ Home 
+ 
+
+ 
+ About 
+ 
+
+ 
+ Hall of Fame 
+ 
+
+ 
+
+ 
+ Play 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ About 
+ 
+ 
+ 
+ Guide 
+ 
+ 
+
+ 
+ 
+ Battle Rules
+
+ 
+ 
+ World of Tanks Generals is a turn-based, two-player game. Players deploy cards from their hands, move cards on the Battlefield, and attack each other. The winner is the player who destroys their opponent&rsquo;s HQ.
+
+ 
+ Garage
+
+ The Garage is displayed when you enter the game.
+
+ 
+
+ See also Garage .
+
+ 
+ Battle Screen
+
+ The Battle Screen is displayed when you start a battle.
+
+ 
+
+ 
+ See also Battle Screen .
+
+ 
+ Battlefield
+
+ The 15-square Battlefield is the main area for military combat.
+
+ 
+
+ 
+ At the beginning of the battle, both HQs are placed on opposite corners of the Battlefield. Your HQ is at the bottom, while your enemy's is at the top.
+
+ The Bridgehead comprises the three squares adjacent to your HQ. You can deploy units to the Bridgehead only.
+
+ The HQ Support Panel is to the left of the Battlefield. Squads are deployed to the HQ Support Panel.
+
+ 
+ 
+ Your Hand and Casualties
+
+ Your is made up of the cards you can play during your turn.
+ Casualties are the stack of discarded cards.
+
+ 
+ At the start of the battle you receive a starting hand &mdash;six random cards from your deck.
+
+ At the start of each turn, you also receive one random card to your hand. However, as going first gives a slight strategic advantage, the first player in the first round does not receive this additional card.
+
+ If you have more than six cards in your hand at the end of your turn, excess cards are randomly selected and discarded to Casualties.
+
+ Destroyed units and squads, as well as deployed orders, also go to Casualties.
+
+ 
+ 
+ Resources and Resource Growth
+
+ Resources are funds you pay to play cards from your hand.
+ Resource growth is the amount of resources a card yields when on the Battlefield or HQ Support Panel. Resource growth is indicated on the upper right corner of the card.
+
+ 
+ You receive resources at the beginning of each turn.
+
+ Total resource growth changes during the battle and is the sum of the resource growth of all cards on the Battlefield and HQ Support Panel.
+
+ The amount of resources available on your current and next turn is displayed on the resource counter .
+
+ Resources that you do not spend during your turn expire at the beginning of your next turn. 
+
+ 
+ See also Gaining Resources .
+ 
+
+ 
+ Your Turn
+
+ 
+ The player who goes first is randomly selected in every battle.
+
+ Each turn has a time constraint. The time remaining for your turn is indicated under the End Turn button.
+
+ During your turn, you can do the following:
+&ndash; use assets
+&ndash; deploy cards from your hand
+&ndash; move units on the Battlefield
+&ndash; attack your enemy
+
+ When you have nothing left to do, end your turn. To see what your enemy's got up his sleeve, click the End Turn button.
+
+ Be careful: if you make no moves and take no action for two minutes, your turn finishes automatically.
+
+ 
+ 
+ Playing Cards
+
+ 
+
+ 
+ To deploy cards from your hand, you pay with resources. The deploy cost is indicated on the upper left corner of the card.
+
+ Where you deploy the card depends on the card type. Units can only be deployed to the Bridgehead and squads can be placed on the HQ Support Panel. Orders are applied to cards or to the Battlefield (or its parts) and then put into Casualties.
+
+ 
+ See also Deploying Cards and Gaining Resources .
+
+ 
+ Moving Cards
+
+ 
+
+ 
+ Once units are deployed you can move them on the Battlefield.
+
+ The way units move on the Battlefield depends on the unit type.
+
+ 
+ See also Moving Units .
+
+ 
+ Fighting Your Enemy
+
+ 
+
+ 
+ You can attack your enemy with your HQ and units.
+
+ In response to your attack, the target counterattacks.
+
+ All units, except tank destroyers, attack and counterattack at the same time.
+
+ A card on the Battlefield can attack once during your turn and counterattack once during your enemy&rsquo;s turn.
+
+ The way units attack or counterattack depends on the unit type.
+
+ 
+ See also Attacking and Counterattacking .
+
+ 
+ Ending the Battle
+
+ 
+
+ 
+ The battle usually lasts until one of the HQs is destroyed. However, the battle also finishes if one of the players exhausts their 15-minute time limit.
+
+ Either player can also end the battle at any time by clicking (the White flag button) in the upper left corner of the Battle Screen.
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ < Deck and Cards 
+ Ways of Winning the Battle > 
+
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ ESRB 
+ 
+
+ 
+ 
+ facebook 
+ twitter 
+ 
+
+ 
+ Privacy Policy 
+ Terms of Service 
+ EULA 
+ 
+ 
+
+ 
+ 
+ Russia 
+
+ Русский 
+
+ 
+ 
+ Europe 
+
+ English 
+ Čeština 
+ Deutsch 
+ Español 
+ Français 
+ Polski 
+ Türkçe 
+
+ 
+ 
+ North America 
+
+ English 
+ Português 
+ Español 
+
+ 
+ 
+ Asia 
+
+ English 
+ 日本語 
+ 繁體中文 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ ESRB 
+ 
+
+ 
+ 
+ 
+ facebook 
+ twitter 
+ 
+
+ 
+ wargaming.net 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Privacy Policy 
+ Terms of Service 
+ EULA 
+ 
+ © 2009–2016 Wargaming.net

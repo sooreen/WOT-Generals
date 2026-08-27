@@ -1,0 +1,92 @@
+{
+  "А-32": {
+    "vehicleClass": "medium",
+    "source": "https://wiki.wargaming.net/ru/Tank%3AA-32",
+    "via": "энциклопедия World of Tanks (текст аннотации)"
+  },
+  "БТ-СВ": {
+    "vehicleClass": "light",
+    "source": "https://wiki.wargaming.net/ru/Tank%3ABT-SV",
+    "via": "энциклопедия World of Tanks (текст аннотации)"
+  },
+  "Валентайн II": {
+    "vehicleClass": "light",
+    "source": "https://wiki.wargaming.net/ru/Tank%3AValentine_II",
+    "via": "энциклопедия World of Tanks (текст аннотации)"
+  },
+  "ИС-4": {
+    "vehicleClass": "heavy",
+    "source": "https://wiki.wargaming.net/ru/Tank%3AIS-4",
+    "via": "энциклопедия World of Tanks (текст аннотации)"
+  },
+  "СУ-101": {
+    "vehicleClass": "td",
+    "source": "https://wiki.wargaming.net/ru/Tank%3ASU-101",
+    "via": "энциклопедия World of Tanks (ссылка в аннотации)"
+  },
+  "СУ-122-54": {
+    "vehicleClass": "td",
+    "source": "https://wiki.wargaming.net/ru/Tank%3ASU-122-54",
+    "via": "энциклопедия World of Tanks (ссылка в аннотации)"
+  },
+  "Т25 AT": {
+    "vehicleClass": "td",
+    "source": "https://wiki.wargaming.net/ru/Tank%3AT25_AT",
+    "via": "энциклопедия World of Tanks (текст аннотации)"
+  },
+  "Т28": {
+    "vehicleClass": "td",
+    "source": "https://wiki.wargaming.net/ru/Tank%3AT28",
+    "via": "энциклопедия World of Tanks (текст аннотации)"
+  },
+  "E-50": {
+    "vehicleClass": "medium",
+    "source": "https://wiki.wargaming.net/ru/Tank%3AE-50",
+    "via": "энциклопедия World of Tanks (ссылка в аннотации)"
+  },
+  "E-50M": {
+    "vehicleClass": "medium",
+    "source": "https://wiki.wargaming.net/ru/Tank%3AE_50_Ausf._M",
+    "via": "энциклопедия World of Tanks (текст аннотации)"
+  },
+  "JagdTiger": {
+    "vehicleClass": "td",
+    "source": "https://wiki.wargaming.net/ru/Tank%3AJagdTiger",
+    "via": "энциклопедия World of Tanks (текст аннотации)"
+  },
+  "Leichttraktor": {
+    "vehicleClass": "light",
+    "source": "https://wiki.wargaming.net/ru/Tank%3ALeichttraktor",
+    "via": "энциклопедия World of Tanks (текст аннотации)"
+  },
+  "M103": {
+    "vehicleClass": "heavy",
+    "source": "https://wiki.wargaming.net/ru/Tank%3AM103",
+    "via": "энциклопедия World of Tanks (текст аннотации)"
+  },
+  "M48 Patton": {
+    "vehicleClass": "medium",
+    "source": "https://wiki.wargaming.net/ru/Tank%3AM48A1_Patton",
+    "via": "энциклопедия World of Tanks (текст аннотации)"
+  },
+  "Ru 251": {
+    "vehicleClass": "light",
+    "source": "https://wiki.wargaming.net/ru/Tank%3ASp%C3%A4hpanzer_Ru_251",
+    "via": "энциклопедия World of Tanks (текст аннотации)"
+  },
+  "T-62А": {
+    "vehicleClass": "medium",
+    "source": "https://wiki.wargaming.net/ru/Tank%3AT-62A",
+    "via": "энциклопедия World of Tanks (текст аннотации)"
+  },
+  "T20": {
+    "vehicleClass": "medium",
+    "source": "https://wiki.wargaming.net/ru/Tank%3AT20",
+    "via": "энциклопедия World of Tanks (текст аннотации)"
+  },
+  "Tiger (P)": {
+    "vehicleClass": "heavy",
+    "source": "https://wiki.wargaming.net/ru/Tank%3ATiger_(P)",
+    "via": "энциклопедия World of Tanks (навигационный шаблон класса)"
+  }
+}

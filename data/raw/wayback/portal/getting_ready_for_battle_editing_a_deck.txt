@@ -1,0 +1,471 @@
+-->
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Editing a Deck | World of Tanks Generals 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ Services 
+ Forum 
+ Wiki 
+ Support 
+ 
+ 
+ 
+ 
+ 
+ Log in 
+ 
+ 
+ or create account 
+ 
+ 
+
+ 
+ My Profile 
+ 
+
+ 
+ 
+ 
+ Личный кабинет 
+ 
+
+ 
+ Premium Shop 
+ 
+
+ 
+ 
+ Log out 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ -->
+ 
+ 
+ 
+ World of Tanks Generals 
+ 
+
+ 
+ Home 
+ About 
+ Hall of Fame 
+ 
+
+ 
+ Play 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ About 
+ Guide 
+
+ 
+ Editing a Deck
+
+ 
+ 
+ Deckbuilding is a big part of the game. With hundreds of cards to choose from, and both players creating their own decks, every game is unique.
+
+ Edit your deck or collect a completely new one in the Deck Editor. You can also buy and rent cards in the Deck Editor.
+
+ 
+ To open the Deck Editor: 
+
+ 
+ In the Garage, select the deck you want to edit.
+
+ Click Edit to the left of the BATTLE! button. The deck editor for the selected deck opens.
+
+ 
+ 
+
+ The Deck Editor consists of four blocks:
+
+ 
+ 
+ 
+ 
+ Filters 
+
+ 
+ 
+ Cards in the Collection 
+
+ 
+ 
+ Deck Info 
+
+ 
+ 
+ Cards in the Deck 
+
+ 
+ 
+ 
+
+ 
+ Filters
+
+ To display the Filters block, click Filters in the upper right corner of the Deck Editor.
+
+ 
+
+ This block helps you sort and search the cards in your Collection as well as choose which cards you want to see there.
+
+ 
+ 
+ 
+ Sort 
+ 
+ By deploy cost 
+ To sort cards by deploy cost or power, click or . 
+
+ 
+ 
+ 
+ By card power 
+
+ 
+ 
+ 
+ Ascending / descending 
+ To sort cards in ascending or descending order of deploy cost / power, click . 
+
+ 
+ Search 
+ 
+ Search bar 
+ To find a card by name, use the search bar . 
+
+ 
+ Filter 
+ 
+ By nation: all cards, USSR, USA, Germany 
+ To filter cards by nation, category, type, attribute, or HQ compatibility, click the required icons on panels , , , or .
+ See also Nations, Categories, Types and Attributes of cards.
+
+ To display all card in your Collection, click All on the required filter panel/panels.
+
+ 
+
+ 
+ 
+ 
+ By category of cards: all cards, mercenary cards, premium cards 
+
+ 
+ 
+ 
+ By type of cards: all cards, light tanks, medium tanks, heavy tanks, tank destroyers, SPGs, orders, assault squads, defensive squads 
+
+ 
+ 
+ 
+ By key attribute of cards: Defense, Camouflage, Cover 
+
+ 
+ 
+ 
+ By HQ compatibility: all cards, cards compatible with current HQ 
+
+ 
+ 
+ To close the Filters block, click Hide .
+
+ 
+ Cards in the Collection
+
+ 
+
+ Your Collection includes the cards that you can add to your decks. Copies of the same cards are gathered in piles. The number of copies is indicated in the lower right corner of the card picture. If all copies of a card are added to the deck, the card is not shown in your Collection.
+
+ 
+ 
+ 
+ The cards are scaled-down. To enlarge a card and view its details, right-click it. 
+
+ 
+ 
+ Click a card in your Collection to add it to your deck.
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ Sorting, filtering, and searching can help you find the card you want to add to the deck. 
+
+ 
+ 
+ 
+
+ 
+ Deck Info
+
+ To display the Deck Info block, click Info in the Deck Editor.
+
+ 
+
+ In this block you can find the following information and buttons:
+
+ 
+ 
+ 
+ 
+ Deck name 
+ To change the deck name, click the name and type a new one. 
+
+ 
+ 
+ Change deck 
+ Click to choose another deck or create a new deck with the current HQ. 
+
+ 
+ 
+ Number of cards in deck / required number of cards 
+ You cannot battle with a deck of more or less than 40 cards (excluding the HQ). 
+
+ 
+ 
+ Deck power 
+ The deck power is the sum of all the card powers in the deck. The card power depends on the card tier.
+ 
+ 
+ 
+ Your enemy&rsquo;s deck power can only be 15% more or less than your deck power. For example, if your deck power is 44, your enemy deck power must be between 40 and 51. 
+
+ 
+ 
+ 
+
+ 
+ 
+ Correct deck automatically 
+ Click to let the AI collect your deck. 
+
+ 
+ 
+ Editor 
+ To hide the Deck Info block, click Editor . 
+
+ 
+ 
+ Type 
+ Click to view the number of cards by type . 
+
+ 
+ 
+ Cost 
+ Click to view the number of cards by deploy cost . 
+
+ 
+ 
+ Power 
+ Click to view the number of cards by tier. 
+
+ 
+ 
+ Category 
+ Click to view the number of cards by category . 
+
+ 
+ 
+ 
+ Cards in the Deck
+
+ 
+
+ This block includes the cards of the current deck. Copies of the same cards are gathered in piles. The number of copies is indicated in the lower right corner of the card picture.
+
+ 
+ 
+ 
+ The cards are scaled-down. To enlarge a card and view its details, right-click it. 
+
+ 
+ 
+ To delete a card from the deck, click the card. The card is moved to your Collection.
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ < Renting Cards 
+ Buying Assets > 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ ESRB 
+ 
+
+ 
+ facebook 
+ twitter 
+ 
+
+ 
+ Privacy Policy 
+ Terms of Service 
+ EULA 
+ 
+ 
+
+ 
+ 
+ Russia 
+
+ Русский 
+
+ 
+ 
+ Europe 
+
+ English 
+ Čeština 
+ Deutsch 
+ Español 
+ Français 
+ Polski 
+ Türkçe 
+
+ 
+ 
+ North America 
+
+ English 
+ Português 
+ Español 
+
+ 
+ 
+ Asia 
+
+ English 
+ 日本語 
+ 繁體中文 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ ESRB 
+ 
+
+ 
+ 
+ facebook 
+ twitter 
+ 
+
+ 
+ wargaming.net 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Privacy Policy 
+ Terms of Service 
+ EULA 
+ 
+ © 2009–2016 Wargaming.net

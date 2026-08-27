@@ -1,0 +1,17 @@
+services:
+  wotg:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: wot-generals:latest
+    container_name: wot-generals
+    restart: unless-stopped
+    ports:
+      - "${PORT:-8080}:8080"
+    environment:
+      # Режим оппонента на нейросети. Без ключа игра работает на программном ИИ.
+      ANTHROPIC_API_KEY: "${ANTHROPIC_API_KEY:-}"
+      WOTG_LLM_MODEL: "${WOTG_LLM_MODEL:-claude-opus-5}"
+      WOTG_LLM_EFFORT: "${WOTG_LLM_EFFORT:-medium}"
+      WOTG_LLM_RPM: "${WOTG_LLM_RPM:-60}"
+      LOG_LEVEL: "${LOG_LEVEL:-info}"
